@@ -1,4 +1,4 @@
-# openscienceprize
+# An openscienceprize entry
 
 These are the beginnings of an entry for
 [openscienceprize.org](//openscienceprize.org). Join in if you are
@@ -46,21 +46,21 @@ one (so they use them for purely selfish reasons) and as a "waste
 product" allows others to reuse that particular data analysis. We will
 achieve this by providing a way to automate every step of an analysis.
 
-Code sharing is solved by github.
+* Code sharing is solved by github.
 
-Describing the environment in which your code runs is solved by docker.
+* Describing the environment in which your code runs is solved by docker.
 
-Managing workflows is solved by tools like `make`, `snakemake`, etc.
+* Managing workflows is solved by tools like `make`, `snakemake`, etc.
 
-Notebooks allow you to describe the narrative of your computations.
+* Notebooks allow you to describe the narrative of your computations.
 
-Continous integration helps you spot regressions. If a robot can run
-your analysis, it is reproducible.
+* Continous integration helps you spot regressions. If a robot can run
+  your analysis, it is reproducible.
 
-Zenodo makes your code citable and archives it for ever.
+* Zenodo makes your code citable and archives it for ever.
 
-Notebooks allow you to write rich documents combining text, code,
-figures, equations and interactive elements.
+* Notebooks allow you to write rich documents combining text, code,
+  figures, equations and interactive elements.
 
 If you combine all these tools you have an extremely good reproducible
 science setup. Right now this requires a lot more geek-ness than your
