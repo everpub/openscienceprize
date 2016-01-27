@@ -12,7 +12,7 @@ development phase. Reusability as a side effect.
 # Tech-y summary
 
 Combining ideas from mybinder, everware, thebe, github, docker,
-travis, and zenodo. Useful for researchers from day one. Provide a way
+travis, and zenodo. Be useful for researchers from day one. Provide a way
 to automate every step. A toolbox, not a framework. Most individual
 steps already have fantastic solutions out there, people should use
 them! Final step: interactive and re-mixable papers.
@@ -70,11 +70,28 @@ If you combine all these tools you have an extremely good reproducible
 science setup. Right now this requires a lot more geek-ness than your
 average researcher has. Fixing this is the aim of this project.
 
+For open source projects momentum is king. This project should create
+best practices/a guide/advice on what tools to use and how to combine
+them. This stears users towards those tools. They might not be perfect
+but having more users generates momentum. This is better than
+fragmentation which occurs if users go off to build the missing feature
+in their own project.
+
+This project will contribute to existing open source projects to improve
+them whenever possible. Only when there is no other tool that could
+be improved to fix a problem should a new project be created.
+
 
 # How to make it so
 
-What would we have to build to make this a reality.
+What would we have to build to make this a reality. In the
+following the word `tool` is used to mean an actual
+software tool, or documentation, or training material,
+or best practice guide.
 
+* best practices for reusable science
+* contribute to OS projects used here like `jupyter`,
+  `docker`, CI servers, `snakemake`, etc
 * a tool to get started with your first `Dockerfile`
 * syntactic sugar for `docker build && docker run` mounting the
   local directory into the container
