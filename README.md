@@ -25,6 +25,10 @@ Everyone is welcome to contribute. Discussion happens in
 changes are handled via [pull
 requests](https://github.com/betatim/openscienceprize/pulls).
 
+You can contribute by filing an issue on something you find unclear,
+needs improving, is missing, is incorrect, or add an idea of your
+own. Or directly create a pull request with your suggested edits.
+
 As this is about creating a entry for the open science prize, creating
 the entry should happen in the open as well. All the material is
 licensed under [CC BY-SA
