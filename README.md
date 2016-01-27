@@ -67,6 +67,23 @@ science setup. Right now this requires a lot more geek-ness than your
 average researcher has. Fixing this is the aim of this project.
 
 
+# How to make it so
+
+What would we have to build to make this a reality.
+
+* a tool to get started with your first `Dockerfile`
+* syntactic sugar for `docker build && docker run` mounting the
+  local directory into the container
+* connecting to the running container
+* a jupyterhub spawner that works with the `Dockerfile`
+* examples of how to setup your repo
+* tools for using travis/circle CI
+* convert markdown to `ipynb` and run it (md is easier to diff)
+* a better `thebe` that can protect users from malicious content
+* webserver that renders just `paper.ipynb` from a repo, hooks it up
+  to something like `tmpnb` for interactivity
+
+
 # Brain dump points
 
 This is an unordered collection of thoughts. Feel free to add to it.
