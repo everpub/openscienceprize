@@ -72,7 +72,7 @@ average researcher has. Fixing this is the aim of this project.
 
 For open source projects momentum is king. This project should create
 best practices/a guide/advice on what tools to use and how to combine
-them. This stears users towards those tools. They might not be perfect
+them. This steers users towards those tools. They might not be perfect
 but having more users generates momentum. This is better than
 fragmentation which occurs if users go off to build the missing feature
 in their own project.
