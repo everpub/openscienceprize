@@ -30,9 +30,8 @@ needs improving, is missing, is incorrect, or add an idea of your
 own. Or directly create a pull request with your suggested edits.
 
 As this is about creating a entry for the open science prize, creating
-the entry should happen in the open as well. All the material is
-licensed under [CC BY-SA
-4.0](//creativecommons.org/licenses/by-sa/4.0/).
+the entry should happen in the open as well. Licensing details and a
+list of contributors can be found in [LICENSE](LICENSE).
 
 
 # Longer outline of the idea
