@@ -4,18 +4,21 @@ These are the beginnings of an entry for
 [openscienceprize.org](//openscienceprize.org). Join in if you are
 interested!
 
-A toolbox that makes reusable/reproducible science a first class
-citizen in the academic workflow by being useful already during the
-development phase. Reusability as a side effect.
+Build the infrastructure required to create and publish scientific
+output that is more than a simple, static document.
+
+A toolbox that makes reusable science a first class citizen in the
+academic workflow by being useful from day one of a research
+project. Reusability as a side effect.
 
 
-# Tech-y summary
+# Tech-y summary and principles
 
 Combining ideas from mybinder, everware, thebe, github, docker,
 travis, and zenodo. Useful for researchers from day one. Provide a way
 to automate every step. A toolbox, not a framework. Most individual
 steps already have fantastic solutions out there, people should use
-them! Final step: interactive and re-mixable papers.
+them! Final step: interactive, re-mixable papers.
 
 
 # Contributing
@@ -37,22 +40,32 @@ licensed under [CC BY-SA
 
 # Longer outline of the idea
 
-There is a lot of work going on in the data sharing domain. What is
-missing is preserving all the data analyses that are happening. There
-are platforms/frameworks for workflow management that force you to use
-their tool. There does not seem to be much in the way of data analysis
-preservation/sharing which lets you continue using the tools you
-already use and is based around the idea of a toolbox instead of a
-framework/platform.
+Build the infrastructure required to create and publish scientific
+output that is more than a simple, static document. To make this a
+success two things are needed:
 
-This project will build tools that are useful to scientists from day
-one (so they use them for purely selfish reasons) and as a "waste
-product" allows others to reuse that particular data analysis. We will
-achieve this by providing a way to automate every step of an analysis.
+* a web app that allows you to publish your research work as an
+  interactive document instead of a static PDF
 
-* Code sharing is solved by github.
+* blue prints and best practices guides for creating a publication
+  that is reusable.
 
-* Describing the environment in which your code runs is solved by docker.
+Research progresses by reusing other people's results and methods. To
+facilitate this the web app will allow for publishing content and make
+building on top of it as simple as clicking a "fork" button. Credit
+and appreciation can be assigned by :star:ing other people's
+work. This creates a social web for science. Creating this web app is
+the first aim of this project.
+
+In order for people to be able to publish in such a place they need to
+know how to create a publication that is reusable. The technical
+components for creating a reusable and richer publication already
+exist:
+
+* Collaborative creation of code is solved by github.
+
+* Describing the environment in which your code runs is solved by
+  docker.
 
 * Managing workflows is solved by tools like `make`, `snakemake`, etc.
 
@@ -66,9 +79,20 @@ achieve this by providing a way to automate every step of an analysis.
 * Notebooks allow you to write rich documents combining text, code,
   figures, equations and interactive elements.
 
-If you combine all these tools you have an extremely good reproducible
-science setup. Right now this requires a lot more geek-ness than your
-average researcher has. Fixing this is the aim of this project.
+These tools are in widespread use outside of academia, are considered
+best practices, and are part of a flourishing ecosystem based on the
+idea of interoperability and open source.
+
+Combining all these tools results in an extremely good reproducible
+science setup. Right now doing this requires a lot more technical
+skill than the average researcher has. This project will create blue
+prints and training material for setting up a research project that
+incorporates the above tools. The materials will be contributed to
+existing training initiatives to encourage widescale adoption.
+
+This project will build tools that are useful to scientists from day
+one (so they use them for purely selfish reasons) and as a "waste
+product" allows others to reuse that particular data analysis.
 
 
 # How to make it so
