@@ -15,10 +15,14 @@ project. Reusability as a side effect.
 # Tech-y summary and principles
 
 Combining ideas from mybinder, everware, thebe, github, docker,
-travis, and zenodo. Useful for researchers from day one. Provide a way
-to automate every step. A toolbox, not a framework. Most individual
-steps already have fantastic solutions out there, people should use
-them! Final step: interactive, re-mixable papers.
+travis, and zenodo. Useful for researchers from day one. Runs locally
+on your laptop or lab's cluster. Provide a way to automate every
+step. Opinionated. Helps setup structure of a research project. A
+toolbox, not a framework. Most individual steps already have fantastic
+solutions out there, people should use them! Final step: interactive,
+re-mixable papers.
+
+Read [the full proposal](proposal.md).
 
 
 # Contributing
@@ -36,79 +40,11 @@ As this is about creating a entry for the open science prize, creating
 the entry should happen in the open as well. Licensing details and a
 list of contributors can be found in [LICENSE](LICENSE).
 
+Watch the repository - this way, you will get email notifications of
+new conversations. You can do this by clicking on 'Watch' at the top
+of the repository:
 
-# Longer outline of the idea
-
-Build the infrastructure required to create and publish scientific
-output that is more than a simple, static document. To make this a
-success two things are needed:
-
-* a web app that allows you to publish your research work as an
-  interactive document instead of a static PDF
-
-* blue prints and best practices guides for creating a publication
-  that is reusable.
-
-Research progresses by reusing other people's results and methods. To
-facilitate this the web app will allow for publishing content and make
-building on top of it as simple as clicking a "fork" button. Credit
-and appreciation can be assigned by :star:ing other people's
-work. This creates a social web for science. Creating this web app is
-the first aim of this project.
-
-In order for people to be able to publish in such a place they need to
-know how to create a publication that is reusable. The technical
-components for creating a reusable and richer publication already
-exist:
-
-* Collaborative creation of code is solved by github.
-
-* Describing the environment in which your code runs is solved by
-  docker.
-
-* Managing workflows is solved by tools like `make`, `snakemake`, etc.
-
-* Notebooks allow you to describe the narrative of your computations.
-
-* Continous integration helps you spot regressions. If a robot can run
-  your analysis, it is reproducible.
-
-* Zenodo makes your code citable and archives it for ever.
-
-* Notebooks allow you to write rich documents combining text, code,
-  figures, equations and interactive elements.
-
-These tools are in widespread use outside of academia, are considered
-best practices, and are part of a flourishing ecosystem based on the
-idea of interoperability and open source.
-
-Combining all these tools results in an extremely good reproducible
-science setup. Right now doing this requires a lot more technical
-skill than the average researcher has. This project will create blue
-prints and training material for setting up a research project that
-incorporates the above tools. The materials will be contributed to
-existing training initiatives to encourage widescale adoption.
-
-This project will build tools that are useful to scientists from day
-one (so they use them for purely selfish reasons) and as a "waste
-product" allows others to reuse that particular data analysis.
-
-
-# How to make it so
-
-What would we have to build to make this a reality.
-
-* a tool to get started with your first `Dockerfile`
-* syntactic sugar for `docker build && docker run` mounting the
-  local directory into the container
-* connecting to the running container
-* a jupyterhub spawner that works with the `Dockerfile`
-* examples of how to setup your repo
-* tools for using travis/circle CI
-* convert markdown to `ipynb` and run it (md is easier to diff)
-* a better `thebe` that can protect users from malicious content
-* webserver that renders just `paper.ipynb` from a repo, hooks it up
-  to something like `tmpnb` for interactivity
+![Watching a repository](https://help.github.com/assets/images/help/notifications/watcher_picker.gif)
 
 
 # Brain dump points
