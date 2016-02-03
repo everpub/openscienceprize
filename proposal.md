@@ -58,6 +58,14 @@ deliverable of this project will be a set of tools that provide
 a streamlined user interface for these tools, focussing on the
 use-case of academia.
 
+For open source projects momentum is king. The guides and advice
+created in this project will be opinionated. This steers users towards
+the recommended open-source tools. These tools might not be perfect
+but having more users generates momentum for those tools which results
+in improvement of those tools. This is better than fragmentation which
+occurs if individuals go off to build the missing feature in their own
+project.
+
 This project will build tools and guides that are useful to scientists
 from day one of their analysis (so they use them for purely selfish
 reasons) and as a "waste product" allows others to reuse that
@@ -66,7 +74,9 @@ particular data analysis.
 
 # How to make it so
 
-What would we have to build to make this a reality.
+What would we have to build to make this a reality. In the following
+the word "tool" is used interchangeably to mean an actual software
+tool, or documentation, or training material, or best practice guide.
 
 * a tool to get started with your first `Dockerfile`
 * syntactic sugar for `docker build && docker run` mounting the
