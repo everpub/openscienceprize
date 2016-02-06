@@ -27,6 +27,9 @@ Read [the full proposal](proposal.md).
 
 # Contributing
 
+Check out [issue #14](https://github.com/betatim/openscienceprize/issues/14)
+if you want to collaborate or become a co-proponent.
+
 Everyone is welcome to contribute. Discussion happens in
 [issues](https://github.com/betatim/openscienceprize/issues), and
 changes are handled via [pull
