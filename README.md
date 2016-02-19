@@ -4,6 +4,13 @@ These are the beginnings of an entry for
 [openscienceprize.org](//openscienceprize.org). Join in if you are
 interested!
 
+**Right now the most needed ingredient is a US based collaborator**
+
+There is quite a bit of work left to do to have a complete proposal.
+I am hesitant to put time into writing instead of building as long
+as I can't team up with a US based person. If you have comments,
+please create an [issue](https://github.com/betatim/openscienceprize/issues).
+
 Build the infrastructure required to create and publish scientific
 output that is more than a simple, static document.
 
