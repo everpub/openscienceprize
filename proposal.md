@@ -40,6 +40,7 @@ programs will accelerate. Credit and appreciation can be assigned by
 science similar to github's social web for code.
 
 
+
 ## Challenges
 
 The technical
@@ -89,10 +90,27 @@ in improvement of those tools. This is better than fragmentation which
 occurs if individuals go off to build the missing feature in their own
 project.
 
+
+## Solution
+
 This project will build tools and guides that are useful to scientists
 from day one of their analysis (so they use them for purely selfish
 reasons) and as a "waste product" allows others to reuse that
 particular data analysis.
+
+
+## Licenses
+
+This project will build on top of a tradition of open source tools. We
+will contribute to existing open-source projects under their license. All
+newly created material and projects will be licensed under BSD3 for code
+and CC4 BY for other material.
+
+
+## Conclusion
+
+This will be amazing!
+
 
 ------------------
 
