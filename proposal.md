@@ -40,12 +40,33 @@ programs will accelerate. Credit and appreciation can be assigned by
 science similar to github's social web for code.
 
 
+## Challenges and State of the Art
 
-## Challenges
+The individual technical components required for creating an open,
+reusable and rich publication have recently become available to those
+following the cutting edge of technology.
 
-The technical
-components for creating a reusable and richer publication already
-exist:
+Using the NASA Technology readiness levels as a guide open and
+reusable science publishing has reached level 3/4. That is individual
+components have been validated in a laboratory setting. This project
+will elevate open and reusable science publishing to level 6/7. This
+represents a major step in the level of fidelity of the technology,
+demonstrating a prototype system, which goes beyond ad-hoc patched
+together components, in use in a relevant environment.
+
+Currently assembling the right technological solutions for an open and
+reusable publication requires considerable technical skill. Often
+beyond the level of expertise of individual scientists. In addition
+having to start from scratch is a daunting and high risk
+task. Researchers who invest time and resources risk constructing a
+solution which in the end is not up to scratch, leading to wasted
+effort.
+
+Even if a research team succeeds in assembling a state of the art
+approach to sharing their research from scratch, there is no system in
+place that allows them to share it with others in a way that
+encourages reuse, gives them credit for doing so, and tracks 
+
 
 * Collaborative creation of code is solved by github.
 
@@ -110,38 +131,3 @@ and CC4 BY for other material.
 ## Conclusion
 
 This will be amazing!
-
-
-------------------
-
-# Remove from the proposal
-
-*Stuff below here is for encouraging thought*
-
-What would we have to build to make this a reality. In the following
-the word "tool" is used interchangeably to mean an actual software
-tool, or documentation, or training material, or best practice guide.
-
-* a tool to get started with your first `Dockerfile`
-* syntactic sugar for `docker build && docker run` mounting the
-  local directory into the container
-* initialising the research environment (as easy to use as `conda
-  create`, or virtualenv)
-* activating the environment has to be as simple as conda
-  env/virtualenv
-* connecting to the running container
-* a jupyterhub spawner that works with the `Dockerfile`
-* examples of how to setup your repo
-* tools for using travis/circle CI
-* convert markdown to `ipynb` and run it (md is easier to diff)
-* a better `thebe` that can protect users from malicious content
-* webserver that renders just `paper.ipynb` from a repo, hooks it up
-  to something like `tmpnb` for interactivity
-* forking and starring publications
-* running publications is similar to [kaggle scripts](https://www.kaggle.com/scripts)
-* web based way to create an environment, try it and then
-  download it
-* `openscience fork <XXX>` to locally fork publication `XXX`
-* `openscience init` to initialise local directory with new env
-* `openscience activate <XXX>` to switch to the environment
-  for publication `XXX`
