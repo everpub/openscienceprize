@@ -2,6 +2,9 @@
 
 Tim Head, Titus Brown, et al.
 
+Summary: Reproducibility is a main priciple of the scientific method. Publishing scientific results as dynamic and interactive documents will allow to verify, alter, reuse and credit not only the results, but the entire analysis path of a scientific work. This new interactive reusability will increase the transparancy, quality and educational value of published scientific work.   
+
+
 This project will build the infrastructure required to create and
 publish scientific output that is more than a simple, static
 document. To make this a success two things are needed:
