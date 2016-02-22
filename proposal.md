@@ -1,5 +1,7 @@
 # Research dissemination, 21st century style
 
+Tim Head, Titus Brown, et al.
+
 This project will build the infrastructure required to create and
 publish scientific output that is more than a simple, static
 document. To make this a success two things are needed:
@@ -93,7 +95,7 @@ tool, or documentation, or training material, or best practice guide.
 * a better `thebe` that can protect users from malicious content
 * webserver that renders just `paper.ipynb` from a repo, hooks it up
   to something like `tmpnb` for interactivity
-* forking and staring publications
+* forking and starring publications
 * running publications is similar to [kaggle scripts](https://www.kaggle.com/scripts)
 * web based way to create an environment, try it and then
   download it
