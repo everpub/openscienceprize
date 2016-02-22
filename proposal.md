@@ -2,29 +2,47 @@
 
 Tim Head, Titus Brown, et al.
 
-Summary: Reproducibility is a main priciple of the scientific method. Publishing scientific results as dynamic and interactive documents will allow to verify, alter, reuse and credit not only the results, but the entire analysis path of a scientific work. This new interactive reusability will increase the transparancy, quality and educational value of published scientific work.   
 
+## Summary
+
+Reproducibility is a main principle of the scientific
+method. Publishing scientific results as dynamic and interactive
+documents will allow to verify, alter, reuse and credit not only the
+results, but the entire analysis path of a scientific work. This new
+interactive reusability will increase the transparancy, quality and
+educational value of published scientific work.
+
+Sharing research data and code are solved problems. However today
+applying this shared code to the shared data requires great technical
+expertise.  By not sharing the environment in which the code can be
+successfully applied to the data we create a high barrier to
+reuse. Research progresses by building on previous research. Having to
+reinvent the wheel many times over is a waste of resources. This
+project will lower the barrier to reuse by providing a web based way
+to create an environment, use it, and then download it for future use.
 
 This project will build the infrastructure required to create and
 publish scientific output that is more than a simple, static
-document. To make this a success two things are needed:
+document. Allowing others to instantly apply the shared code to the
+shared data. To make this a success two things are needed:
 
-1) a web app that allows you to publish your research work as an
-   interactive document instead of a static PDF, instantly reusable by
-   other researchers.
+1) a web application that allows users to publish their research work
+   as an interactive document instead of a static PDF, instantly
+   reusable by other researchers.
 
 2) blue prints, tools and best practices guides for creating such a
    publication. 
 
-Research progresses by reusing other people's results and methods. To
-facilitate this the web app will allow for publishing content and make
-building on top of it as simple as clicking a "fork" button. Credit
-and appreciation can be assigned by :star:ing other people's
-work. This creates a social web for science. Creating this web app is
-the first aim of this project.
+By publishing executable content and making it as simple as clicking
+a "fork" button to try it out the pace of research based on computer
+programs will accelerate. Credit and appreciation can be assigned by
+:star:ing other people's work. Thereby creating a social web for
+science similar to github's social web for code.
 
-In order for people to be able to publish in such a place they need to
-know how to create a publication that is reusable. The technical
+
+## Challenges
+
+The technical
 components for creating a reusable and richer publication already
 exist:
 
@@ -53,7 +71,7 @@ The tools are in widespread use outside of academia, are considered
 best practices, and are part of a flourishing ecosystem based on the
 idea of interoperability and open source.
 
-Combining all these tools results in an extremely good reproducible
+Combining all these tools results in an extremely powerful reproducible
 science setup. Right now doing this requires a lot more technical
 skill than the average researcher has. This project will create blue
 prints and training material for setting up a research project that
@@ -76,8 +94,11 @@ from day one of their analysis (so they use them for purely selfish
 reasons) and as a "waste product" allows others to reuse that
 particular data analysis.
 
+------------------
 
-# How to make it so
+# Remove from the proposal
+
+*Stuff below here is for encouraging thought*
 
 What would we have to build to make this a reality. In the following
 the word "tool" is used interchangeably to mean an actual software
