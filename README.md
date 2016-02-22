@@ -4,12 +4,11 @@ These are the beginnings of an entry for
 [openscienceprize.org](//openscienceprize.org). Join in if you are
 interested!
 
-**Right now the most needed ingredient is a US based collaborator**
+Participants: Tim Head, Titus Brown, et al.
 
 There is quite a bit of work left to do to have a complete proposal.
-I am hesitant to put time into writing instead of building as long
-as I can't team up with a US based person. If you have comments,
-please create an [issue](https://github.com/betatim/openscienceprize/issues).
+If you have comments, please create an
+[issue](https://github.com/betatim/openscienceprize/issues).
 
 Build the infrastructure required to create and publish scientific
 output that is more than a simple, static document.
@@ -21,13 +20,17 @@ project. Reusability as a side effect.
 
 # Tech-y summary and principles
 
-Combining ideas from mybinder, everware, thebe, github, docker,
-travis, and zenodo. Useful for researchers from day one. Runs locally
-on your laptop or lab's cluster. Provide a way to automate every
-step. Opinionated. Helps setup structure of a research project. A
-toolbox, not a framework. Most individual steps already have fantastic
-solutions out there, people should use them! Final step: interactive,
-re-mixable papers.
+Combining ideas from [mybinder](mybinder.org),
+[everware](https://betatim.github.io/posts/project-everware-reusable-science/),
+[thebe](https://github.com/oreillymedia/thebe),
+[github](http://github.com/), [docker](http://docker.com),
+[travis](https://travis-ci.org/), and
+[zenodo](https://zenodo.org/). Useful for researchers from day
+one. Runs locally on your laptop or lab's cluster. Provide a way to
+automate every step. Opinionated. Helps setup structure of a research
+project. A toolbox, not a framework. Most individual steps already
+have fantastic solutions out there, people should use them! Final
+step: interactive, re-mixable papers.
 
 Read [the full proposal](proposal.md).
 
