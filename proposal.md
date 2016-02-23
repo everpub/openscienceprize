@@ -40,6 +40,47 @@ programs will accelerate. Credit and appreciation can be assigned by
 science similar to github's social web for code.
 
 
+## Impact
+
+The tools and methods proposed in this project increase the
+reproducibility and reusability of research projects. They provide
+benefits to researchers from day one of their analysis, long before
+publication. The improved reusability encourages other researchers to
+build on this research which delivers impact at the time of
+publication through higher citation rates and gains in
+reputation. Long after publication a field of research benefits from
+the high level of detail inherent to publishing the code, data and
+environment in which it was executed.
+
+### Short term user story
+
+The use of executable papers provides a benefit to researchers from
+day one. Each of their projects exists in a separate, customisable
+environment. They can not interact with each other. No outsiders can
+modify the environment. This prevents the "This worked four weeks ago
+and I changed nothing!" scenario, enables rapid sharing with
+colleagues, and dramatically reduces the time and effort until new
+team members can make contributions to a project. It increases
+reproducibility and
+
+### Long term user story.
+
+As maths is the most precise language for describing the laws of
+nature, so is computer code the most precise language for describing
+data analysis tasks. Only the publication of code and environment
+together allows post hoc analysis for flawed methodology or whether a
+result was affected by a certain bug in a computer program used.
+
+## Social web of science story
+
+New mechanisms for assigning credit and fame. Public review means
+credit for reviewing other people's work. "Forking" allows credit
+assignment when research is reused. The crowd can evaluate and "bubble
+to the top" the most interesting and relevant research. Allowing
+research to be evaluated at web scale at a far higher pace than
+possible with small boards of experts.
+
+
 ## Challenges and State of the Art
 
 The individual technical components required for creating an open,
