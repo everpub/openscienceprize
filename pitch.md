@@ -2,7 +2,7 @@ The Pitch
 =========
 
 Reproducibility, reusability, and remixability are fundamental to the
-scientific process, should be built into computational science.
+scientific process, and should be built into computational science.
 
 We propose to make reusability and composition a first-class citizen in
 computational research and publishing by enabling the publication of
@@ -18,7 +18,7 @@ Specifically, we will do this by:
   [everware](https://betatim.github.io/posts/project-everware-reusable-science/)
   to execute workflows;
 
-* implementing command-line software and/or Web interfaces to create,
+* implementing command-line software and Web interfaces to create,
   configure, and execute (locally or remotely) scientific repositories
   that provide this specification;
 
@@ -31,7 +31,7 @@ Specifically, we will do this by:
 * integrating our implementation with Zenodo, to provide DOIs for 
   citation;
 
-* prototyping ideas for composition of workflows;
+* prototyping ideas for composition of repositories;
 
 * engaging with the larger academic community including scientists,
   publishers, and librarians around executable papers and workflows
