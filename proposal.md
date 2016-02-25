@@ -134,11 +134,10 @@ papers for education and outreach.
 The use of executable papers provides a benefit to researchers from
 day one. Each of their projects exists in a separate, customisable
 environment. They can not interact with each other. No outsiders can
-modify the environment. This prevents the "This worked four weeks ago
-and I changed nothing!" scenario, enables rapid sharing with
+modify the environment. This prevents the "This used to work four
+weeks ago and I changed nothing!" scenario, enables rapid sharing with
 colleagues, and dramatically reduces the time and effort until new
-team members can make contributions to a project. It increases
-reproducibility and
+team members can make contributions to a project.
 
 ### Long term user story
 
@@ -146,6 +145,18 @@ Code is to data analysis what maths is to the laws of nature, the most
 precise description. Only the publication of code and environment
 together allows post hoc analysis for flawed methodology or whether a
 result was affected by a certain bug in a computer program used.
+
+### Outreach story
+
+Nobel prize winning lab experiments from 100 years ago can now be
+performed over a short time period by undergraduates. This is possible
+due to the amazing pace of technological development and the detailed
+records about the methods used in the experiments. The Large Electron
+Positron collider data set used to be stored on a distributed system
+but now can be easily shared on a thumb-drive and analysed in its
+entirety on a laptop. In 100 years undergraduates will routinely
+rediscover the Higgs boson as the the detailed data analysis
+methodology will be recorded in an executable paper.
 
 ### Social web of science story
 
@@ -190,30 +201,31 @@ the bar to entry, gives them credit for doing so, and tracks reuse.
 Below we list some of the tools available to address each of the
 technical challenges:
 
-* Collaborative creation of code is solved by GitHub.
+* Collaborative creation of code is solved by GitHub
 
 * Describing the environment in which code runs is solved by
-  docker containers.
+  docker containers
 
-* Managing workflows is solved by tools like `make`, `snakemake`, etc.
+* Managing workflows is solved by tools like `make`, `snakemake`, etc
 
-* Jupyter notebooks allow you to describe the narrative of your computations.
+* Notebooks (e.g. jupyter, Rmarkdown, ...) allow you to describe the
+  narrative of your computations
 
 * Continuous integration helps you spot regressions. If a robot can run
   your analysis, it is reproducible!
 
-* Zenodo makes your code citable and archives it for ever.
+* Zenodo makes your code citable and archives it for ever
 
-* Jupyter notebooks allow you to write rich documents combining text,
-  code, figures, equations and interactive elements.
+* Notebooks allow you to write rich documents combining text,
+  code, figures, equations and interactive elements
 
 These tools are in widespread use outside of academia, are considered
 best practices, and are part of a flourishing open-source ecosystem
 based on the idea of interoperability.
 
-What is missing is experience of how to combine them into a working
-pipeline and better user interfaces that are streamlined for the academic
-use-case.
+What is missing in academia is the experience of how to combine them
+into a working pipeline as well as better user interfaces that are
+streamlined for the academic use-case.
 
 
 ## Solution
