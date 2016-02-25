@@ -21,9 +21,9 @@ While sharing research data and code are solved problems, applying
 this shared code to the shared data requires great technical
 expertise.  By not sharing the environment in which the code can be
 successfully applied to the data we create a high barrier to reuse.
-We will lower that barrier to reuse by providing a web based way to
-create an environment, use it, and then download it for use in future
-research.
+We will lower the barrier to reuse by providing a web interface that
+let's the reader of a journal article create an environment, use it,
+and then download it for use in future research.
 
 This project will build the infrastructure required to create and
 publish scientific output that is more than a simple, static
@@ -32,26 +32,24 @@ shared data. To make this a success two things are needed:
 
 1) a web application that allows users to publish their research work
    as an interactive document instead of a static PDF, instantly
-   reusable by other researchers.
+   reusable by other researchers; and
 
 2) blue prints, tools and best practices guides for creating such a
    publication. 
 
 By publishing executable content and making it as simple as clicking a
-button in your browser to try it out the pace of research based on
-computer programs will accelerate. Credit can be assigned by counting
-how often work is reused. Appreciation is signalled by a simple "thumbs
-up". Thereby creating a social web for science similar to GitHub's
-social web for code.
+button in your browser to try it out the pace of computer aided
+research will accelerate. Credit can be assigned by counting how often
+work is reused. Appreciation is signalled by a simple "thumbs
+up". Thereby creating a social web for scientific publications similar
+to GitHub's social web for code.
 
 
-## Story
-
-Describe the idea without relying on technical terms.
+## Idea (story mode)
 
 Today scientific results are published as static documents. Limited in
-length and content by the requirement of printed journals. The printed
-journal was a groundbreaking invention in the 17th century, today we
+length and content by the requirement of printed journals. In the 17th
+century the printed journal was a groundbreaking invention, today we
 can do a lot better.
 
 After the completion of a project a research article is submitted for
@@ -65,10 +63,10 @@ descriptions of the research methodology.
 If code and data related to the article are being shared they are
 usually attached as supplementary material. This material is available
 online but requires several clicks to locate. The data is stored in
-yet another location. Creating work based on this material is
+yet another location. Creating new work based on the shared material is
 laborious. Combined with the fact that research code is by its very
-nature not made for "consumers", reuse of the tools implementing the
-new scientific knowledge published in the article is unlikely. Instead
+nature not made for "consumers", reuse of the tools used to obtain the
+new scientific knowledge published in an article is unlikely. Instead
 they are reimplemented from scratch or older, less sophisticated
 methods are used. Either way the progress of science is slowed down.
 
@@ -79,22 +77,25 @@ Reusing someone else's work is risky. You might invest a lot of time
 upfront understanding the code and data, hoping to save time in the
 long term for your own research, but these savings might never
 materialise. Lowering the bar to entry is crucial as it reduces the
-risk associated with trying out other researchers code. We propose
-executable papers as a way to increase reuse.
+risk associated with trying out other researcher's code. We propose
+executable papers as a way to achieve just that.
 
-Executable papers can be achieved with a three step program. The
-first step is to use automatic execution of code so that we can be
-sure that this code was used to create this figure. The second step
-consists of providing a mechanism for individuals to create a copy of
-the code and make small modifications before re-running the
-analysis. The final step is to provide a simple way for researchers to
-download the modified executable paper to their local computer
-in order to use it as basis for future research projects.
+Executable papers can be achieved with a three step program:
+
+ 1. automatic execution of code so that we can be sure that this
+ code was used to create these results;
+
+ 2. provide a simple mechanism for individuals to create a copy of the
+ code and make small modifications before re-running the analysis; and
+
+ 3. a method for researchers to download the modified executable paper
+ to their local computer in order to use it as basis for future
+ research projects.
 
 To create novel research findings data, methods and visualisations
 from several executable papers can be combined. This significantly
 reduces turn around time and increases the rate at which new knowledge
-is created. Starting from an existing executable paper is free as
+is created. Starting from an existing executable paper is risk free as
 we know that it will run and produce the results advertised.
 
 Creating an executable paper is not without cost. However this initial
@@ -166,12 +167,12 @@ reusable and rich publication have recently become available to those
 following the cutting edge of technology.
 
 Using the NASA Technology readiness levels as a guide open and
-reusable science publishing has reached level 3/4. That is individual
+reusable science publishing has reached level 3/4. This means that individual
 components have been validated in a laboratory setting. This project
 will elevate open and reusable science publishing to level 6/7. This
 represents a major step in the level of fidelity of the technology,
 demonstrating a prototype system, which goes beyond ad-hoc patched
-together components, in use in a relevant environment.
+together components, in use in a real-life environment.
 
 Currently assembling the right technological solutions for an open and
 reusable publication requires considerable technical skill. Often
@@ -186,55 +187,41 @@ approach to sharing their research from scratch, there is no system in
 place that allows them to share it with others in a way that lowers
 the bar to entry, gives them credit for doing so, and tracks reuse.
 
+Below we list some of the tools available to address each of the
+technical challenges:
+
 * Collaborative creation of code is solved by GitHub.
 
-* Describing the environment in which your code runs is solved by
-  docker.
+* Describing the environment in which code runs is solved by
+  docker containers.
 
 * Managing workflows is solved by tools like `make`, `snakemake`, etc.
 
-* Notebooks allow you to describe the narrative of your computations.
+* Jupyter notebooks allow you to describe the narrative of your computations.
 
 * Continuous integration helps you spot regressions. If a robot can run
-  your analysis, it is reproducible.
+  your analysis, it is reproducible!
 
 * Zenodo makes your code citable and archives it for ever.
 
-* Notebooks allow you to write rich documents combining text, code,
-  figures, equations and interactive elements.
+* Jupyter notebooks allow you to write rich documents combining text,
+  code, figures, equations and interactive elements.
+
+These tools are in widespread use outside of academia, are considered
+best practices, and are part of a flourishing open-source ecosystem
+based on the idea of interoperability.
 
 What is missing is experience of how to combine them into a working
-pipeline and better user interfaces that streamlined for the academic
+pipeline and better user interfaces that are streamlined for the academic
 use-case.
-
-The tools are in widespread use outside of academia, are considered
-best practices, and are part of a flourishing ecosystem based on the
-idea of interoperability and open source.
-
-Combining all these tools results in an extremely powerful reproducible
-science setup. Right now doing this requires a lot more technical
-skill than the average researcher has. This project will create blue
-prints and training material for setting up a research project that
-incorporates the above tools. The materials will be contributed to
-existing training initiatives to encourage wide scale adoption. A key
-deliverable of this project will be a set of tools that provide
-a streamlined user interface for these tools, focusing on the
-use-case of academia.
-
-For open source projects momentum is king. The guides and advice
-created in this project will be opinionated. This steers users towards
-the recommended open-source tools. These tools might not be perfect
-but having more users generates momentum for those tools which results
-in improvement of those tools. This is better than fragmentation which
-occurs if individuals go off to build the missing feature in their own
-project.
 
 
 ## Solution
 
 This project will build a vertically integrated prototype
 demonstrating the publication of dynamic and interactive scientific
-narratives.
+narratives. The project will be organised as an open-source project
+allowing anyone to join and contribute to its development.
 
 Specifically, we will do this by:
 
@@ -263,6 +250,14 @@ Specifically, we will do this by:
 * engaging with the larger academic community including scientists,
   publishers, and librarians around executable papers and workflows
   and specifications for same;
+
+For open source projects momentum is king. The guides, tools, and advice
+created in this project will be opinionated. This steers users towards
+the recommended open-source tools. These tools might not be perfect
+but having more users generates momentum for those tools which results
+in improvement of those tools. This is better than fragmentation which
+occurs if individuals go off to build the missing feature in a new
+project.
 
 
 ## Resource feasibility
