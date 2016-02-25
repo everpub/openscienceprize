@@ -5,21 +5,25 @@ Tim Head, Titus Brown, et al.
 
 ## Summary
 
-Reproducibility is a main principle of the scientific
-method. Publishing scientific results as dynamic and interactive
-documents will allow to verify, alter, reuse and credit not only the
-results, but the entire analysis path of a scientific work. This new
-interactive reusability will increase the transparancy, quality and
-educational value of published scientific work.
+Reproducibility is a main principle of the scientific method. We
+propose to make reproducibility a first-class citizen in computer
+aided research by enabling the publication of dynamic and interactive
+scientific narratives that can be verified, altered, reused, and
+cited. This new interactive reusability will increase the
+transparency, quality and educational value of published scientific
+work.
 
-Sharing research data and code are solved problems. However today
-applying this shared code to the shared data requires great technical
+We believe that research progresses by building on previous
+research. Having to reinvent the wheel many times over is a waste of
+resources.
+
+While sharing research data and code are solved problems, applying
+this shared code to the shared data requires great technical
 expertise.  By not sharing the environment in which the code can be
-successfully applied to the data we create a high barrier to
-reuse. Research progresses by building on previous research. Having to
-reinvent the wheel many times over is a waste of resources. We will
-lower the barrier to reuse by providing a web based way to create an
-environment, use it, and then download it for use in future research.
+successfully applied to the data we create a high barrier to reuse.
+We will lower that barrier to reuse by providing a web based way to
+create an environment, use it, and then download it for use in future
+research.
 
 This project will build the infrastructure required to create and
 publish scientific output that is more than a simple, static
@@ -36,8 +40,8 @@ shared data. To make this a success two things are needed:
 By publishing executable content and making it as simple as clicking a
 button in your browser to try it out the pace of research based on
 computer programs will accelerate. Credit can be assigned by counting
-how often work is reused. Appreciation is signaled by a simple "thumbs
-up". Thereby creating a social web for science similar to github's
+how often work is reused. Appreciation is signalled by a simple "thumbs
+up". Thereby creating a social web for science similar to GitHub's
 social web for code.
 
 
@@ -182,8 +186,7 @@ approach to sharing their research from scratch, there is no system in
 place that allows them to share it with others in a way that lowers
 the bar to entry, gives them credit for doing so, and tracks reuse.
 
-
-* Collaborative creation of code is solved by github.
+* Collaborative creation of code is solved by GitHub.
 
 * Describing the environment in which your code runs is solved by
   docker.
@@ -192,7 +195,7 @@ the bar to entry, gives them credit for doing so, and tracks reuse.
 
 * Notebooks allow you to describe the narrative of your computations.
 
-* Continous integration helps you spot regressions. If a robot can run
+* Continuous integration helps you spot regressions. If a robot can run
   your analysis, it is reproducible.
 
 * Zenodo makes your code citable and archives it for ever.
@@ -213,9 +216,9 @@ science setup. Right now doing this requires a lot more technical
 skill than the average researcher has. This project will create blue
 prints and training material for setting up a research project that
 incorporates the above tools. The materials will be contributed to
-existing training initiatives to encourage widescale adoption. A key
+existing training initiatives to encourage wide scale adoption. A key
 deliverable of this project will be a set of tools that provide
-a streamlined user interface for these tools, focussing on the
+a streamlined user interface for these tools, focusing on the
 use-case of academia.
 
 For open source projects momentum is king. The guides and advice
@@ -229,25 +232,75 @@ project.
 
 ## Solution
 
-This project will build tools and guides that are useful to scientists
-from day one of their analysis (so they use them for purely selfish
-reasons) and as a "waste product" allows others to reuse that
-particular data analysis.
+This project will build a vertically integrated prototype
+demonstrating the publication of dynamic and interactive scientific
+narratives.
 
-XXX More stuff here
+Specifically, we will do this by:
+
+* developing a simple specification for dependencies, code execution,
+  data/parameter inputs, and data/paper outputs.  This specification
+  will initially be designed to allow services like
+  [mybinder](http://mybinder.org/) and
+  [everware](https://betatim.github.io/posts/project-everware-reusable-science/)
+  to execute workflows;
+
+* implementing command-line software and Web interfaces to create,
+  configure, and execute (locally or remotely) scientific repositories
+  that provide this specification;
+
+* extending the current Jupyter-based systems to also interact with
+  R Markdown and work within the R ecosystem more cleanly;
+
+* integrating our implementation with GitHub, continuous integration,
+  and pull requests, to facilitate review, interaction, and collaboration;
+
+* integrating our implementation with Zenodo, to provide DOIs for 
+  citation;
+
+* prototyping ideas for composition of repositories;
+
+* engaging with the larger academic community including scientists,
+  publishers, and librarians around executable papers and workflows
+  and specifications for same;
 
 
 ## Resource feasibility
 
 The proponents are researchers in data intensive fields. They have
-vast technical experience with the individual components required to
-construct a working prototype. They have a track record of
-contributing to open-source projects and growing communities around
-projects. One of the proponents (CTB) is experienced in teaching
-highly technical tools to novices via his involvedment with Software
-Carpentry. One of the proponents (TH) has built a
-[demonstrator](http://everware.xyz) that allows people to jump right
-in to other's research code.
+broad technical experience with the individual components required to
+construct the working prototype proposed here.
+
+They have a track record of contributing to open-source projects and
+growing communities around them. CTB is experienced in teaching highly
+technical tools to novices via his involvement with Software
+Carpentry. TH has built a [demonstrator](http://everware.xyz) that
+allows people to jump right in to other's research code. TH
+contributes to the jupyter project which forms the core technology
+upon which the prototype will be built.
+
+
+## Budget
+
+The project will be run like an open-source project: anyone can join
+and become a contributor to the software, documentation and
+specifications we create. Building a community around these projects
+is a focus. The prize will be used to cover out of pocket expenses to
+achieve this goal:
+
+* Travel and fees for team members to attend workshops, sprints, and
+  community events to build contacts and recruit new contributors.
+
+* Organising our own event/workshop to engage with the community and
+  build consensus on the specification and use-cases.
+
+Cloud services for a live demonstrator. We will avoid buying physical
+objects as it is not clear what should happen with them at the end of
+the project.
+
+TH will commit a significant amount of his time (60-80% FTE) to this
+project in the next six months. A large part of the budget will go
+towards paying for his time.
 
 
 ## Licenses
