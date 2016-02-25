@@ -1,8 +1,8 @@
 # An openscienceprize entry
 
 These are the beginnings of an entry for
-[openscienceprize.org](//openscienceprize.org). Join in if you are
-interested!
+[openscienceprize.org](//openscienceprize.org). Read [The Pitch](pitch.md) and
+join in if you are interested!
 
 Participants: Tim Head, Titus Brown, et al.
 
