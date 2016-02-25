@@ -190,7 +190,8 @@ the bar to entry, gives them credit for doing so, and tracks reuse.
 
 * Managing workflows is solved by tools like `make`, `snakemake`, etc.
 
-* Notebooks allow you to describe the narrative of your computations.
+* Notebooks and Rmarkdown allow you to describe the narrative of your
+  computations.
 
 * Continous integration helps you spot regressions. If a robot can run
   your analysis, it is reproducible.
