@@ -170,8 +170,23 @@ and "bubble to the top" the most interesting and relevant
 research. Allowing research to be evaluated at web scale at a far
 larger pace than possible with small boards of experts.
 
+### Shared knowledge for data access
 
-## State of the Art
+Datasets are often tricky to access and not well documented. Having a
+executable paper that access a database of interest to the reader
+allows the reader to see a working example of how to load and clean
+the data. Over the long term this create best practices and shared
+knowledge on accessing biomedical databases and the idiosyncrasies of
+that data.
+
+### Contentmine
+
+Executable papers can directly produce or be retrofitted to produce
+their key results in a format easily ingested by projects like the
+Contentmine.
+
+
+## The State of the Art
 
 The individual technical components required for creating an open,
 reusable and rich publication have recently become available to those
