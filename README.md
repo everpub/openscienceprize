@@ -17,6 +17,9 @@ A toolbox that makes reusable science a first class citizen in the
 academic workflow by being useful from day one of a research
 project. Reusability as a side effect.
 
+A mockup of what a executable paper could look like:
+![interface-mock-up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif)
+
 
 # Tech-y summary and principles
 
