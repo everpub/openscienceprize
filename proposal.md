@@ -216,10 +216,10 @@ the bar to entry, gives them credit for doing so, and tracks reuse.
 Below we list some of the tools available to address each of the
 technical challenges:
 
-* Collaborative creation of code is solved by GitHub
+* Collaborative creation of code is solved by [GitHub](//github.com)
 
 * Describing the environment in which code runs is solved by
-  docker containers
+  [docker](//docker.com) containers
 
 * Managing workflows is solved by tools like `make`, `snakemake`, etc
 
@@ -229,7 +229,10 @@ technical challenges:
 * Continuous integration helps you spot regressions. If a robot can run
   your analysis, it is reproducible!
 
-* Zenodo makes your code citable and archives it for ever
+* [Zenodo](//zenodo.org) is an open dependable home for science,
+  enabling researchers to share and preserve any research outputs in
+  any size, any format and from any science. It can be used to make
+  your code citable and assign a DOI
 
 * Notebooks allow you to write rich documents combining text,
   code, figures, equations and interactive elements
@@ -297,7 +300,7 @@ They have a track record of contributing to open-source projects and
 growing communities around them. CTB is experienced in teaching highly
 technical tools to novices via his involvement with Software
 Carpentry. TH has built a [demonstrator](http://everware.xyz) that
-allows people to jump right in to other's research code. TH
+allows people to jump right in to others research code. TH
 contributes to the jupyter project which forms the core technology
 upon which the prototype will be built.
 
