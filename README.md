@@ -10,12 +10,10 @@ There is quite a bit of work left to do to have a complete proposal.
 If you have comments, please create an
 [issue](https://github.com/betatim/openscienceprize/issues).
 
-Build the infrastructure required to create and publish scientific
-output that is more than a simple, static document.
-
-A toolbox that makes reusable science a first class citizen in the
-academic workflow by being useful from day one of a research
-project. Reusability as a side effect.
+We propose to make reusability a first-class citizen in computer aided
+research by enabling the publication of dynamic and interactive
+scientific narratives that can be verified, altered, reused, and
+cited.
 
 A mockup of what a executable paper could look like:
 ![interface-mock-up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif)
