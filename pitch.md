@@ -1,12 +1,15 @@
 The Pitch
 =========
 
-Reproducibility, reusability, and remixability are fundamental to the
-scientific process, and should be built into computational science.
+Humans process the world through narratives. In order to be useful to humans
+data, computations and visualisations need to be embedded into a narrative.
 
-We propose to make reusability and composition a first-class citizen in
-computational research and publishing by enabling the publication of
-dynamic and interactive scientific documents that can be verified, altered,
+Reproducibility, reusability, and remixability are fundamental to the
+scientific process.
+
+We propose to make reusability and composition a first-class citizen
+in computer aided research by enabling the publication of dynamic and
+interactive scientific narratives that can be verified, altered,
 reused, and cited.
 
 Specifically, we will do this by:
