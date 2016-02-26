@@ -359,7 +359,7 @@ This project will build on top of an existing ecosystem of open-source
 tools. We will contribute to existing open-source projects under their
 license. All newly created material and projects will be licensed
 under [BSD3](http://choosealicense.com/licenses/bsd-3-clause/) for
-code and [CC4 BY](http://creativecommons.org/licenses/by/4.0/) for
+code and [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) for
 other material.
 
 
