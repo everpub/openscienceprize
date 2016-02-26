@@ -151,11 +151,11 @@ result was affected by a certain bug in a computer program used.
 Nobel prize winning lab experiments from 100 years ago can now be
 performed over a short time period by undergraduates. This is possible
 due to the amazing pace of technological development and the detailed
-records about the methods used in the experiments. The Large Electron
-Positron collider data set used to be stored on a distributed system
-but now can be easily shared on a thumb-drive and analysed in its
-entirety on a laptop. In 100 years undergraduates will routinely
-rediscover the Higgs boson as the the detailed data analysis
+records about the methods used in the experiments. The dataset of one
+Large Electron Positron collider experiment used to be stored on a
+distributed system but now can be easily stored on a SSD and analysed
+in its entirety on a laptop. In 100 years undergraduates will
+routinely rediscover the Higgs boson as the the detailed data analysis
 methodology will be recorded in an executable paper.
 
 ### Social web of science story
