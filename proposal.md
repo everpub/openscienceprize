@@ -341,7 +341,7 @@ in seeing a working prototype implementing the ideas of this proposal:
 <https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (place holder)
 
 
-## Openess first
+## Openness first
 
 The project will be run like an open-source project, with the
 proponents as the first members of a community we will build around
@@ -349,7 +349,7 @@ the ideas discussed here.
 
 The [XXXour-name-here
 proposal](https://github.com/betatim/openscienceprize) was written in
-the open on github. A total of 16 people chose to subscribe to the
+the open on GitHub. A total of 16 people chose to subscribe to the
 repository and be informed about all activity, twelve people decided
 to show their support by starring the repository, and N people
 actively contributed to the creation of this proposal. No financial
@@ -374,14 +374,14 @@ transparency, quality and educational value of published scientific
 work.
 
 The interest we received from existing publishers and the large number
-of people cntributing to the creation of this proposal show how big
+of people contributing to the creation of this proposal show how big
 the interest in such a project are in the scientific and open-source
 community.
 
 Concretely we propose to: build a web application for the publication
 of dynamic and interactive scientific narratives, create tools and
 educational material to accelerate the adoption of existing solutions
-for reuseable science, and finally to build a community around these
+for reusable science, and finally to build a community around these
 ideas.
 
 This will be amazing!
