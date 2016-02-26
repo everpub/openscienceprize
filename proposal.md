@@ -33,18 +33,132 @@ publish scientific output that is more than a simple, static
 document. Allowing others to instantly apply the shared code to the
 shared data. To make this a success three things are needed:
 
-1) a web application that allows users to publish their research work
+1. a web application that allows users to publish their research work
    as an interactive document instead of a static PDF, instantly
    reusable by other researchers;
 
-2) blue prints, tools and best practices guides for creating such a
+2. blue prints, tools and best practices guides for creating such a
    publication; and
 
-3) documentation and education on how to use such a publication.
+3. documentation and education on how to use such a publication.
 
 By publishing executable content and making it as simple as clicking a
 button in your browser to try it out the pace of computer aided
 research will accelerate.
+
+
+## The State of the Art
+
+The individual technical components required for creating an open,
+reusable and rich publication have recently become available to those
+following the cutting edge of technology.
+
+[mybinder.org](http://mybinder.org) and
+[everware.xyz](http://everware.xyz) (created and developed by TH) are
+two brand new projects that allow anyone to turn a GitHub repository
+into a collection of interactive jupyter notebooks. The notebooks are
+executed on cloud resources and allow anyone to run, modify, and reuse
+them from their browser.
+
+Currently assembling the right technological solutions for an open and
+reusable publication requires considerable technical skill, often
+beyond the level of expertise of individual scientists. In addition
+having to assemble the components for a reusable publication from scratch is a daunting and high risk
+task. Researchers who invest time and resources risk constructing a
+solution which in the end is not up to scratch, leading to wasted
+effort.
+
+Below we list some of the tools available to address each of the
+technical challenges:
+
+* Collaborative creation of code is solved by `git` and [GitHub](//github.com)
+  or similar distributed version control systems
+
+* Describing the environment in which code runs is solved by
+  [docker](//docker.com) containers
+
+* Managing workflows is solved by tools like `make`, `snakemake`, etc
+
+* Notebooks (e.g. jupyter, Rmarkdown, ...) allow you to describe the
+  narrative of your computations
+
+* Continuous integration helps you spot regressions. If a robot can run
+  your analysis, it is reproducible!
+
+* [Zenodo](//zenodo.org) is an open dependable home for science,
+  enabling researchers to share and preserve any research outputs in
+  any size, any format and from any science. It can be used to make
+  your code citable and assign a DOI
+
+* Notebooks allow you to write rich documents combining text,
+  code, figures, equations and interactive elements
+
+These tools are in widespread use outside of academia, are considered
+best practices, and are part of a flourishing open-source ecosystem
+based on the idea of interoperability. We believe that by relying on
+widely adopted, open-source tools the risks with long term
+availability and support are minimised.
+
+What is missing in academia is the experience of how to combine them
+into a working pipeline as well as better user interfaces that are
+streamlined for the academic use-case.
+
+Several efforts exist to create interactive and reusable scientific
+articles. A non exhaustive list: [gitxiv](http://gitxiv.com/), [Open
+Science Framework](https://osf.io),
+[Galaxy](https://galaxyproject.org/),
+[OpenML](http://www.openml.org/), and [Exec and share companion
+sites](http://www.execandshare.org/CompanionSite/). To our knowledge
+none provide what we propose. They either lack executability, create
+lock in, require additional human effort after publication, or focus on
+workflow management.
+
+
+## Solution
+
+This project will build a vertically integrated prototype
+demonstrating the publication of dynamic and interactive scientific
+narratives. The project will be organised as an open-source project
+allowing anyone to join and contribute to its development.
+
+![Executable paper UI mock up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up")
+
+Specifically, we will do this by:
+
+* developing a simple specification for dependencies, code execution,
+  data/parameter inputs, and data/paper outputs.  This specification
+  will initially be designed to allow services like
+  [mybinder](http://mybinder.org/) and
+  [everware](https://betatim.github.io/posts/project-everware-reusable-science/)
+  to execute workflows;
+
+* implementing command-line software and Web interfaces to create,
+  configure, and execute (locally or remotely) scientific repositories
+  that provide this specification;
+
+* extending the current Jupyter-based systems to also interact with
+  R Markdown and work within the R ecosystem more cleanly;
+
+* integrating our implementation with GitHub, continuous integration,
+  and pull requests, to facilitate review, interaction, and collaboration;
+
+* integrating our implementation with Zenodo, to provide DOIs for 
+  citation;
+
+* create guides and educational material on how to use the tools;
+
+* prototyping ideas for composition of repositories;
+
+* engaging with the larger academic community including scientists,
+  publishers, and librarians around executable papers and workflows
+  and specifications for same;
+
+For open-source projects a healthy community is king. Fragmentation
+leads to many efforts each duplicating effort and not able to achieve
+their goals. Therefor we will aim for incremental improvement of
+existing projects where possible as opposed to creating new ones, and
+building consensus within the existing communities through workshops.
+
 
 ## Idea (story mode)
 
@@ -158,112 +272,6 @@ that data.
 Executable papers can directly produce, or be retrofitted, to produce
 their key results in a machine-readable format easily ingested by projects like [the
 Contentmine](http://contentmine.org), used for meta-analysis, or to build a [semantic-web](https://en.wikipedia.org/wiki/Semantic_Web).
-
-
-## The State of the Art
-
-The individual technical components required for creating an open,
-reusable and rich publication have recently become available to those
-following the cutting edge of technology.
-
-Currently assembling the right technological solutions for an open and
-reusable publication requires considerable technical skill, often
-beyond the level of expertise of individual scientists. In addition
-having to assemble the components for a reusable publication from scratch is a daunting and high risk
-task. Researchers who invest time and resources risk constructing a
-solution which in the end is not up to scratch, leading to wasted
-effort.
-
-Below we list some of the tools available to address each of the
-technical challenges:
-
-* Collaborative creation of code is solved by `git` and [GitHub](//github.com)
-  or similar distributed version control systems
-
-* Describing the environment in which code runs is solved by
-  [docker](//docker.com) containers
-
-* Managing workflows is solved by tools like `make`, `snakemake`, etc
-
-* Notebooks (e.g. jupyter, Rmarkdown, ...) allow you to describe the
-  narrative of your computations
-
-* Continuous integration helps you spot regressions. If a robot can run
-  your analysis, it is reproducible!
-
-* [Zenodo](//zenodo.org) is an open dependable home for science,
-  enabling researchers to share and preserve any research outputs in
-  any size, any format and from any science. It can be used to make
-  your code citable and assign a DOI
-
-* Notebooks allow you to write rich documents combining text,
-  code, figures, equations and interactive elements
-
-These tools are in widespread use outside of academia, are considered
-best practices, and are part of a flourishing open-source ecosystem
-based on the idea of interoperability. We believe that by relying on
-widely adopted, open-source tools the risks with long term
-availability and support are minimised.
-
-What is missing in academia is the experience of how to combine them
-into a working pipeline as well as better user interfaces that are
-streamlined for the academic use-case.
-
-Several efforts exist to create interactive and reusable scientific
-articles. A non exhaustive list: [gitxiv](http://gitxiv.com/), [Open
-Science Framework](https://osf.io),
-[Galaxy](https://galaxyproject.org/),
-[OpenML](http://www.openml.org/), and [Exec and share companion
-sites](http://www.execandshare.org/CompanionSite/). To our knowledge
-none provide what we propose. They either lack executability, create
-lock in, require additional human effort after publication, or focus on
-workflow management.
-
-
-## Solution
-
-This project will build a vertically integrated prototype
-demonstrating the publication of dynamic and interactive scientific
-narratives. The project will be organised as an open-source project
-allowing anyone to join and contribute to its development.
-
-![Executable paper UI mock up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up")
-
-Specifically, we will do this by:
-
-* developing a simple specification for dependencies, code execution,
-  data/parameter inputs, and data/paper outputs.  This specification
-  will initially be designed to allow services like
-  [mybinder](http://mybinder.org/) and
-  [everware](https://betatim.github.io/posts/project-everware-reusable-science/)
-  to execute workflows;
-
-* implementing command-line software and Web interfaces to create,
-  configure, and execute (locally or remotely) scientific repositories
-  that provide this specification;
-
-* extending the current Jupyter-based systems to also interact with
-  R Markdown and work within the R ecosystem more cleanly;
-
-* integrating our implementation with GitHub, continuous integration,
-  and pull requests, to facilitate review, interaction, and collaboration;
-
-* integrating our implementation with Zenodo, to provide DOIs for 
-  citation;
-
-* create guides and educational material on how to use the tools;
-
-* prototyping ideas for composition of repositories;
-
-* engaging with the larger academic community including scientists,
-  publishers, and librarians around executable papers and workflows
-  and specifications for same;
-
-For open-source projects a healthy community is king. Fragmentation
-leads to many efforts each duplicating effort and not able to achieve
-their goals. Therefor we will aim for incremental improvement of
-existing projects where possible as opposed to creating new ones, and
-building consensus within the existing communities through workshops.
 
 
 ## Resource feasibility
