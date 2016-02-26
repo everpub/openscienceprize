@@ -253,6 +253,9 @@ demonstrating the publication of dynamic and interactive scientific
 narratives. The project will be organised as an open-source project
 allowing anyone to join and contribute to its development.
 
+![Executable paper UI mock up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up")
+
+
 Specifically, we will do this by:
 
 * developing a simple specification for dependencies, code execution,
@@ -274,6 +277,8 @@ Specifically, we will do this by:
 
 * integrating our implementation with Zenodo, to provide DOIs for 
   citation;
+
+* create guides and educational material on how to use the tools;
 
 * prototyping ideas for composition of repositories;
 
