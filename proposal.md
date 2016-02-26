@@ -20,13 +20,6 @@ cited from a web browser. This new interactive reusability will increase the
 transparency, quality and educational value of published scientific
 work.
 
-We believe that research progresses by building on previous
-research and that having to reinvent the wheel many times over is a waste of
-resources.
-Einstein's theory of general relativity, together with Schwarzschild's
-work lead to a theory of black holes, and a few weeks ago LIGO
-detected gravitational waves caused by two black holes colliding.
-
 While sharing research data and code are solved problems for a most fields of research, applying
 this shared code to the shared data requires great technical
 expertise.  By not sharing the environment in which the code can be
@@ -51,11 +44,7 @@ shared data. To make this a success three things are needed:
 
 By publishing executable content and making it as simple as clicking a
 button in your browser to try it out the pace of computer aided
-research will accelerate. Credit can be assigned by counting how often
-work is reused. Appreciation is signalled by a simple "thumbs
-up". Thereby creating a social web for scientific publications similar
-to GitHub's social web for code.
-
+research will accelerate.
 
 ## Idea (story mode)
 
@@ -63,13 +52,6 @@ Today scientific results are published as static documents. Limited in
 length and content by the requirement of printed journals. In the 17th
 century the printed journal was a groundbreaking invention, today we
 can do a lot better.
-
-After the completion of a project a research article is submitted for
-review to an academic journal and after several iterations either
-accepted or rejected by the journal. Editors choose the reviewers who
-volunteer their time and expertise. By virtue of being
-limited in length most journal articles use abstraction and high level
-descriptions of the research methodology.
 
 If code and data related to the article are being shared they are
 usually attached as supplementary material. This material is available
@@ -80,9 +62,6 @@ nature not made for "consumers", reuse of the tools used to obtain the
 new scientific knowledge published in an article is unlikely. Instead
 they are reimplemented from scratch or older, less sophisticated
 methods are used. Either way the progress of science is slowed down.
-
-XXX Benefits of reusing and building on other research are obvious
-... XXX
 
 Reusing someone else's work is risky. You might invest a lot of time
 upfront understanding the code and data, hoping to save time in the
@@ -130,10 +109,7 @@ existing solutions instead of replacing them.
 
 ## Impact
 
-The tools and methods proposed in this project increase the
-reproducibility and reusability of research projects. They provide
-benefits to researchers from day one of their analysis, long before
-publication. The improved reusability encourages other researchers to
+Improved reusability encourages other researchers to
 build on this research which delivers impact at the time of
 publication through faster knowledge generation,
 and gains in reputation. After publication a field of research
@@ -164,33 +140,9 @@ that an executable paper can still be executed in the distant future.
 However by enabling automated execution we facilitate detection of
 bit rot as early as possible, so that remedial action can be taken.
 
-### Outreach story
-
-Nobel prize winning lab experiments from 100 years ago can now be
-performed over a short time period by undergraduates. This is possible
-due to the amazing pace of technological development and the detailed
-records about the methods used in the experiments. The dataset of one
-Large Electron Positron collider experiment used to be stored on a
-distributed system but now can be easily stored on a SSD and analysed
-in its entirety on a laptop. In 100 years undergraduates will
-routinely rediscover the Higgs boson as the the detailed data analysis
-methodology will be recorded in an executable paper.
-
 ### Outreach story 2
 
 Example from life science/medical/bio that is similar to the LEP story.
-
-### Social web of science story
-
-Executable papers create additional mechanisms for assigning credit and fame. Public review means
-credit for reviewing other people's work. Starring, a simple way of
-indicating support, provides a powerful mechanism for sorting a vast
-amount of identical research. Forking, the process of creating a
-derivative work by making a copy and altering it, facilitates fast
-experimentation and tracks credit assignment. The crowd can evaluate
-and "bubble to the top" the most interesting and relevant
-research. These mechanisms power Amazon's "Customers Who Bought This Item Also Bought", the NYT's "Recommended for you", Spotify's "Discover weekly playlist", as well as countless other successful projects. Allowing research to be evaluated at web scale at a far
-higher pace than possible with small boards of experts.
 
 ### Shared knowledge for data access
 
@@ -214,14 +166,6 @@ The individual technical components required for creating an open,
 reusable and rich publication have recently become available to those
 following the cutting edge of technology.
 
-Using the [NASA Technology readiness levels](https://www.nasa.gov/directorates/heo/scan/engineering/technology/txt_accordion1.html) as a guide open and
-reusable science publishing has reached level 3/4. This means that individual
-components have been validated in a laboratory setting. This project
-will elevate open and reusable science publishing to level 6/7. This
-represents a major step in the level of fidelity of the technology,
-demonstrating a prototype system, which goes beyond ad-hoc patched
-together components, in use in a real-life environment.
-
 Currently assembling the right technological solutions for an open and
 reusable publication requires considerable technical skill, often
 beyond the level of expertise of individual scientists. In addition
@@ -229,11 +173,6 @@ having to assemble the components for a reusable publication from scratch is a d
 task. Researchers who invest time and resources risk constructing a
 solution which in the end is not up to scratch, leading to wasted
 effort.
-
-Even if a research team succeeds in assembling a state of the art
-approach to sharing their research from scratch, there is no system in
-place that allows them to share it with others in a way that lowers
-the bar to entry, gives them credit for doing so, and tracks reuse.
 
 Below we list some of the tools available to address each of the
 technical challenges:
@@ -290,7 +229,6 @@ allowing anyone to join and contribute to its development.
 
 ![Executable paper UI mock up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up")
 
-
 Specifically, we will do this by:
 
 * developing a simple specification for dependencies, code execution,
@@ -320,14 +258,6 @@ Specifically, we will do this by:
 * engaging with the larger academic community including scientists,
   publishers, and librarians around executable papers and workflows
   and specifications for same;
-
-For open source projects momentum is king. The guides, tools, and advice
-created in this project will be opinionated. This steers users towards
-the recommended open-source tools. These tools might not be perfect
-but having more users generates momentum for those tools which results
-in improvement of those tools. This is better than fragmentation which
-occurs if individuals go off to build the missing feature in a new
-project.
 
 For open-source projects a healthy community is king. Fragmentation
 leads to many efforts each duplicating effort and not able to achieve
@@ -362,7 +292,7 @@ achieve this goal:
 * Travel and fees for team members to attend workshops, sprints, and
   community events to build contacts and recruit new contributors.
 
-* Organising our own event/workshop to engage with the community and
+* Organising hackathons to engage with the community and
   build consensus on the specification and use-cases.
 
 Cloud services for a live demonstrator. We will avoid buying physical
