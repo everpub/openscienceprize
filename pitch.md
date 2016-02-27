@@ -1,8 +1,8 @@
 The Pitch
 =========
 
-Humans process the world through narratives. In order to be useful to humans
-data, computations and visualisations need to be embedded into a narrative.
+Humans communicate with each other through narratives. In order to be useful to humans,
+data, computations and visualisations need to be embedded into a story.
 
 Reproducibility, reusability, and remixability are fundamental to the
 scientific process.
@@ -25,13 +25,13 @@ Specifically, we will do this by:
   configure, and execute (locally or remotely) scientific repositories
   that provide this specification;
 
-* extending the current Jupyter-based systems to also interact with
-  R Markdown and work within the R ecosystem more cleanly;
+* extending the current [Jupyter](http://jupyter.org/)-based systems to also interact with
+  [R Markdown](http://rmarkdown.rstudio.com/) and work within the R ecosystem more cleanly;
 
-* integrating our implementation with GitHub, continuous integration,
+* integrating our implementation with [GitHub](http://github.com/), continuous integration,
   and pull requests, to facilitate review, interaction, and collaboration;
 
-* integrating our implementation with Zenodo, to provide DOIs for 
+* integrating our implementation with [Zenodo](http://zenodo.org/), to provide DOIs for 
   citation;
 
 * prototyping ideas for composition of repositories;
