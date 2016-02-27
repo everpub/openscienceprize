@@ -1,14 +1,13 @@
-# An openscienceprize entry
+# RRR - Reusable & Reproducible Research
 
-These are the beginnings of an entry for
+This is an entry for
 [openscienceprize.org](//openscienceprize.org). Read [The Pitch](pitch.md) and
 join in if you are interested!
 
 Participants: Tim Head, Titus Brown, et al.
 
-There is quite a bit of work left to do to have a complete proposal.
-If you have comments, please create an
-[issue](https://github.com/betatim/openscienceprize/issues).
+There is quite a bit of work left to do to have a complete proposal. So
+get contributing.
 
 We propose to make reusability a first-class citizen in computer aided
 research by enabling the publication of dynamic and interactive
