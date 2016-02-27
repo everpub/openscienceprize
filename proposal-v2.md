@@ -159,9 +159,9 @@ towards paying for his time.
 
 ## Openness first
 
-The project will be run like an open-source project, with the
-proponents as the first members of a community we will build around
-the ideas discussed here.
+The proponents (and contributors to
+http://github.com/betatim/openscienceprize) will form the first members of a
+community we will build around this proposal.
 
 The [XXXour-name-here
 proposal](https://github.com/betatim/openscienceprize) was written in
