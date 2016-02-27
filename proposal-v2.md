@@ -10,7 +10,7 @@ et al.
 
 ## Introduction:
 
-The open source/open science community is rapidly convering around a
+The open source/open science community is rapidly converging around a
 set of technologies that will enable highly reproducible
 @@computational science publications.  These technologies include
 environments to encode and encapsulate dependencies, cloud compute to
@@ -206,9 +206,7 @@ in seeing a working prototype implementing the ideas of this proposal:
 
 ## Summary
 
-## Other things
-
-publishers
+## Additional information
 
 ### Short term user story
 
@@ -239,8 +237,6 @@ highly technical tools to novices via his involvedment with Software
 Carpentry. One of the proponents (TH) has built a
 [demonstrator](http://everware.xyz) that allows people to jump right
 in to other's research code.
-
-## Conclusion
 
 ## Conclusion
 
