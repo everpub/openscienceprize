@@ -12,7 +12,7 @@ et al.
 
 The open source/open science community is rapidly converging around a
 set of technologies that will enable highly reproducible
-@@computational science publications.  These technologies include
+computer-aided research publications.  These technologies include
 environments to encode and encapsulate dependencies, cloud compute to
 execute workflows, collaboration technologies that enable remixing,
 and text formats that enable comparison and merging.
@@ -32,21 +32,22 @@ long-term interactions.
 ## Background:
 
 In recent years, a robust set of technologies have emerged that are
-being applied to the problem of reproducible computational science@@
-and narrative data analysis.  These include widely used languages with
-a robust ecosystem of libraries (R and Python), distributed version
-control systems that support collaboration, remixing, and forking (git
-and Mercurial), platforms to host collaboration around digital objects
-(GitHub, BitBucket, and GitLab), isolated execution platforms (virtual
-machines, cloud computing, and containers), configuration and
-dependency specification (Debian, conda, Docker), "notebook"
-technologies (Jupyter, RMarkdown), DOI minting, and many others@@.
+being applied to the problem of reproducible computational
+publications and narrative data analysis.  These include widely used
+languages with a robust ecosystem of libraries (R and Python),
+distributed version control systems that support collaboration,
+remixing, and forking (git and Mercurial), platforms to host
+collaboration around digital objects (GitHub, BitBucket, and GitLab),
+isolated execution platforms (virtual machines, cloud computing, and
+containers), configuration and dependency specification (Debian,
+conda, Docker), "notebook" technologies (Jupyter, RMarkdown), DOI
+minting, and many others (XXX more here).
 
 Even more recently, these technologies have been combined
 by open science enthusiasists to deliver components that support
 highly reproducible open science.  For example, mybinder and tmpnb
 enable the execution of Jupyter notebooks in highly configurable
-remote containers; @@.
+remote containers; (XXX more here)..
 
 Despite these advances, there are still many missing components of a
 system for executable papers.
