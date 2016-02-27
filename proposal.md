@@ -5,8 +5,8 @@ Tim Head, Titus Brown, et al.
 
 ## Summary
 
-Today scientific results are published as static documents. Limited in
-length and content by the requirement of printed journals. In the 17th
+Today scientific results are published as static documents, limited in
+length and content by the requirements of printed journals. In the 17th
 century the printed journal was a groundbreaking invention, today we
 can do a lot better: a web application that allows users to
 publish their research work as an interactive document instead of a
@@ -23,9 +23,9 @@ work.
 While sharing research data and code are solved problems for a most fields of research, applying
 this shared code to the shared data requires great technical
 expertise.  By not sharing the environment in which the code can be
-successfully applied to the data we create a high barrier to reuse.
+successfully applied to the data, we create a high barrier to reuse.
 We will lower the barrier to reuse by providing a web interface that
-let's the reader of a journal article create an environment, use it,
+lets the reader of a journal article set up an environment identical to the author's, use it,
 and then download it for use in future research.
 
 This project will build the infrastructure required to create and
@@ -43,8 +43,8 @@ shared data. To make this a success three things are needed:
 3. documentation and education on how to use such a publication.
 
 By publishing executable content and making it as simple as clicking a
-button in your browser to try it out the pace of computer aided
-research will accelerate.
+button in your browser to try it out, the pace of computer aided
+research will accelerate, and its quality will improve.
 
 
 ## The State of the Art
@@ -56,7 +56,7 @@ following the cutting edge of technology.
 [mybinder.org](http://mybinder.org) and
 [everware.xyz](http://everware.xyz) (created and developed by TH) are
 two brand new projects that allow anyone to turn a GitHub repository
-into a collection of interactive jupyter notebooks. The notebooks are
+into a collection of interactive Jupyter notebooks. The notebooks are
 executed on cloud resources and allow anyone to run, modify, and reuse
 them from their browser.
 
@@ -74,13 +74,14 @@ technical challenges:
 * Collaborative creation of code is solved by `git` and [GitHub](//github.com)
   or similar distributed version control systems
 
-* Describing the environment in which code runs is solved by
+* Preserving the environment in which code runs is solved by
   [docker](//docker.com) containers
 
 * Managing workflows is solved by tools like `make`, `snakemake`, etc
 
-* Notebooks (e.g. jupyter, Rmarkdown, ...) allow you to describe the
-  narrative of your computations
+* Notebooks (e.g. Jupyter, Rmarkdown, ...) allow you to describe the
+  narrative of your computations, combining text, code, figures, equations,
+  and interactive elements
 
 * Continuous integration helps you spot regressions. If a robot can run
   your analysis, it is reproducible!
@@ -90,26 +91,23 @@ technical challenges:
   any size, any format and from any science. It can be used to make
   your code citable and assign a DOI
 
-* Notebooks allow you to write rich documents combining text,
-  code, figures, equations and interactive elements
-
 These tools are in widespread use outside of academia, are considered
 best practices, and are part of a flourishing open-source ecosystem
 based on the idea of interoperability. We believe that by relying on
-widely adopted, open-source tools the risks with long term
+widely adopted open-source tools, the risks with long term
 availability and support are minimised.
 
 What is missing in academia is the experience of how to combine them
-into a working pipeline as well as better user interfaces that are
+into a working pipeline. We also need better user interfaces that are
 streamlined for the academic use-case.
 
 Several efforts exist to create interactive and reusable scientific
 articles. A non exhaustive list: [gitxiv](http://gitxiv.com/), [Open
 Science Framework](https://osf.io),
 [Galaxy](https://galaxyproject.org/),
-[OpenML](http://www.openml.org/), and [Exec and share companion
-sites](http://www.execandshare.org/CompanionSite/). To our knowledge
-none provide what we propose. They either lack executability, create
+[OpenML](http://www.openml.org/), [IPOL](http://www.ipol.im/), and [Exec and share companion
+sites](http://www.execandshare.org/CompanionSite/). To our knowledge,
+none provides what we propose. They either lack executability or generality, create
 lock in, require additional human effort after publication, or focus on
 workflow management.
 
@@ -155,7 +153,7 @@ Specifically, we will do this by:
 
 For open-source projects a healthy community is king. Fragmentation
 leads to many efforts each duplicating effort and not able to achieve
-their goals. Therefor we will aim for incremental improvement of
+their goals. Therefore we will aim for incremental improvement of
 existing projects where possible as opposed to creating new ones, and
 building consensus within the existing communities through workshops.
 
