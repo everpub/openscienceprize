@@ -230,10 +230,10 @@ machine-learning.  Tim is an invited member of the inaugural
 [Open Leaders Cohort](https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort)
 of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 
-[Konrad Hinsen](http://dirac.cnrs-orleans.fr/plone/Members/hinsen) is
-a computational researcher who is interested in better tools for
-reproducible science
-(e.g. [ActivePapers](https://khinsen.wordpress.com/2013/09/27/activepapers-for-python/) ).
+[Konrad Hinsen](http://dirac.cnrs-orleans.fr/~hinsen) is
+a computational biophysicist with a long-standing interest in
+reproducible research (e.g. [ActivePapers](http://www.activepapers.org/)).
+He is a founding member of the Numerical Python team and author or co-author of several Open Source scientific software packages. He is a member of the editorial board of [Computing in Science & Engineering](https://www.computer.org/web/computingnow/cise) magazine and recently published a book on ["Computation in Science"](http://computation-in-science.khinsen.net/).
 
 [C. Titus Brown](https://impactstory.org/TitusBrown) is a genomics
 and bioinformatics researcher at UC Davis who is also an active open
@@ -251,6 +251,13 @@ making analysis of particle physics data analysis reproducible and reusable.
 physicist involved in bringing reproducibility and reusability to the LHC experiments at CERN as
 the lead developer of the [Recast](https://github.com/recast-hep) project.
 
+[Andrey Ustyuzhanin](https://github.com/anaderi) head of interdisciplinary research group at Yandex School of Data Analysis ([YSDA](https://yandexdataschool.com)). His group is involved in data science-intensive research in fundamental science. YSDA is full member of [LHCb collaboration](http://lhcb.web.cern.ch/lhcb/), [SHiP collaboration](http://ship.web.cern.ch/ship/) and [CRAYFIS](http://crayfis.io). Interdisciplinary research success is highly sensitive to making research as much transparent for peers from domains involved as possible. Andrey is co-founder of [everware] and [Reprodicuble Experiment Platform](https://github.com/yandex/rep) projects.
+
+[Nicolas P. Rougier](http://www.labri.fr/perso/nrougier/) is a researcher in
+computational neuroscience at the Neurodegerative Disease Institute (Bordeaux,
+France). He is an active open source developer and has been confronted with the
+[reproducibility problem](http://journal.frontiersin.org/article/10.3389/fncom.2015.00030/full) in computational neuroscience. He co-founded the
+[ReScience journal](http://rescience.github.io) with Konrad Hinsen.
 
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components

@@ -12,3 +12,43 @@ The Area of Expertise Contributing to Your Project:
 Age: (you can prefer not to say)
 Sex: (you can prefer not to say)
 ```
+
+```
+First Name: Konrad
+Last Name: Hinsen
+Email Address: research@khinsen.fastmail.net
+Country of permanent address: France
+The Area of Expertise Contributing to Your Project: Reproducible research, Python
+Age: 50
+Sex: male
+```
+
+```
+First Name: Andrey
+Last Name: Ustyuzhanin
+Email Address: andrey.ustyuzhanin@cern.ch
+Country of permanent address: Russia
+The Area of Expertise Contributing to Your Project: Computer Science, Data Science
+Age: 39
+Sex: male
+```
+
+```
+First Name: Nicolas P.
+Last Name: Rougier
+Email Address: Nicolas.Rougier@inria.fr
+Country of permanent address: France
+The Area of Expertise Contributing to Your Project: Computational modeling, Python
+Age: 44
+Sex: Male
+```
+
+```
+First Name: Lukas
+Last Name: Heinrich
+Email Address: lukas.heinrich@cern.ch
+Country of permanent address: Germany
+The Area of Expertise Contributing to Your Project: flexible workflow design
+Age: 29
+Sex: Male
+```
