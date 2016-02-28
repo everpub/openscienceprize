@@ -32,3 +32,13 @@ The Area of Expertise Contributing to Your Project: Computer Science, Data Scien
 Age: 39
 Sex: male
 ```
+
+```
+First Name: Nicolas P.
+Last Name: Rougier
+Email Address: Nicolas.Rougier@inria.fr
+Country of permanent address: France
+The Area of Expertise Contributing to Your Project: Computational modeling, Python
+Age: 44
+Sex: Male
+```
