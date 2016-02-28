@@ -190,7 +190,14 @@ effort after publication, or focus on workflow management.
 
 ## Who we are
 
-Tim Head XXX.
+[Tim Head](https://betatim.github.io/) is a experimental particle
+physicist currently working at [CERN](http://home.cern/). He is an
+[active](https://github.com/betatim) open source developer focussing
+on building better tools for reproducible science and
+machine-learning.  Tim is an invited member of the inaugural [Open
+Leaders
+Cohort](https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort)
+of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 
 [Konrad Hinsen](http://dirac.cnrs-orleans.fr/plone/Members/hinsen) is
 a computational researcher who is interested in better tools for
