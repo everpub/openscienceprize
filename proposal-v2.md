@@ -278,7 +278,7 @@ This will be amazing!
 [Zenodo]:    https://zenodo.org
 [ORCID]:     http://orcid.org
 [mybinder]:  http://mybinder.org
-[tmpnb]:     https://hub.docker.com/r/jupyter/tmpnb/
+[tmpnb]:     https://tmpnb.org
 [gitxiv]:    http://gitxiv.com/
 [Galaxy]:    https://galaxyproject.org/
 [OpenML]:    http://www.openml.org/
