@@ -10,22 +10,24 @@ Titus Brown (US lead)
 
 The open source/open science community is rapidly converging around a
 set of technologies that will enable highly reproducible
-computer-aided research publications.  These technologies include
+computer-aided research.  These technologies include
 environments to encode and encapsulate dependencies, cloud compute to
 execute workflows, collaboration technologies that enable remixing,
 and text formats that enable comparison and merging.
 
-We believe that the time is right to explore the problem space in a
-focused way and find points of general technical agreement as well as
-map areas where further work is needed.  A vertical spike through the
+We believe that the time is right to develop a vertical spike through the
 problem space, with tools to go from an empty directory to a fully
-rendered paper that can be re-rendered and executed, reviewed, and
-remixed, will provide a technical basis for demos and extension.
+rendered paper with an associated workflow that executed, reviewed, and
+remixed. We will explore a specific vertical integration of the existing tools
+in a focused way, find points of general technical agreement, and
+map areas where further work is needed.
+In the process, we will provide a technical basis for demos and extension.
 Engagement with a broad community, open discussion, and community
 brainstorming will build consensus about "solved" problems as well as
 discovering the hard knots of disagreement.  Finally, open community
 building around this problem will inevitably yield serendipitous
 long-term interactions.
+
 
 ## Background:
 
@@ -48,7 +50,10 @@ enable the execution of Jupyter notebooks in highly configurable
 remote containers; (XXX more here).
 
 Despite these advances, there are still many missing components of a
-system for executable papers.
+system for executable papers. Moreover, we would like to be able
+to isolate, modify, and remix the individual components of these papers, 
+which motivates a design where papers are but a single output of a 
+more comprehensive computational workflow.
 
 First and foremost, we need a compute-independent specification
 describing the paper repository layout and requirements, along with
