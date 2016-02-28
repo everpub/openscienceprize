@@ -1,291 +1,144 @@
-# Reusable research, 21st century style
-
-Tim Head, Titus Brown, et al.
+# Everpub: reusable research, 21st century style
+
+Tim Head (Europe lead)
+
+Titus Brown (US lead)
+
+et al.
+
+## Abstract:
+
+## Introduction:
+
+The open source/open science community is rapidly converging around a
+set of technologies that will enable highly reproducible
+computer-aided research publications.  These technologies include
+environments to encode and encapsulate dependencies, cloud compute to
+execute workflows, collaboration technologies that enable remixing,
+and text formats that enable comparison and merging.
+
+We believe that the time is right to explore the problem space in a
+focused way and find points of general technical agreement as well as
+map areas where further work is needed.  A vertical spike through the
+problem space, with tools to go from an empty directory to a fully
+rendered paper that can be re-rendered and executed, reviewed, and
+remixed, will provide a technical basis for demos and extension.
+Engagement with a broad community, open discussion, and community
+brainstorming will build consensus about "solved" problems as well as
+discovering the hard knots of disagreement.  Finally, open community
+building around this problem will inevitably yield serendipitous
+long-term interactions.
+
+## Background:
+
+In recent years, a robust set of technologies have emerged that are
+being applied to the problem of reproducible computational
+publications and narrative data analysis.  These include widely used
+languages with a robust ecosystem of libraries ([R] and [Python]),
+distributed version control systems that support collaboration,
+remixing, and forking ([git] and [Mercurial]), platforms to host
+collaboration around digital objects ([GitHub], [BitBucket], and [GitLab]),
+isolated execution platforms (virtual machines, cloud computing, and
+containers), configuration and dependency specification ([Debian],
+[conda], [Docker]), "notebook" technologies ([Jupyter], [RMarkdown]), DOI
+minting, and many others (XXX more here).
+
+Even more recently, these technologies have been combined
+by open science enthusiasists to deliver components that support
+highly reproducible open science.  For example, [mybinder], [everware] and [tmpnb]
+enable the execution of Jupyter notebooks in highly configurable
+remote containers; (XXX more here)..
+
+Despite these advances, there are still many missing components of a
+system for executable papers.
+
+First and foremost, we need a compute-independent specification
+describing the paper repository layout and requirements, along with
+outputs; such a specification would permit introspection of the
+repository to support execution and composition on compatible
+platforms.
+
+Second, we need close integration with at least one or two widely used
+cloud providers so that people can "bring their own compute".  Current
+execution systems (mybinder, everware, tmpnb) are tied to particular providers,
+have no immediate system for scaling to larger compute, and do not
+integrate with any authentication systems. We also need to provide
+simple methods for local development and execution on laptops,
+workstations, HPCs, and private clouds.
+
+Third, we need to expand support and gain experience with additional
+literate data analysis ecosystems - namely, [R] and [RMarkdown]. The
+technologies mentioned above natively support [Jupyter], which is not as
+widely used in the biomedical research environment as RMarkdown.
+
+Fourth, there is as yet no simple and opinionated way to get started
+writing an executable paper.  This leaves new users who are
+enthusiastic about the concept of highly reproducible publishing with
+no good starting point, and blocks the creation of training materials.
+
+Fifth, we lack ready integration with many useful services such as
+continuous integration (to run executable papers on pull requests with
+e.g. [TravisCI]), DOI minting (with e.g. [Zenodo]), and authorship
+tracking ([ORCID]).
+
+Sixth, the current "notebook" style of execution supported by both
+Jupyter and RMarkdown limits resuability, remixability, and
+composibility of code segments.  The rich Jupyter Notebook format
+specification also presents challenges for longevity of research
+artifacts. Before we "bake" notebooks into computational
+reproducibility, we should think more deeply about how these issues
+should be addressed. (refs)
+
+Seventh, there are several (perhaps many) missing technical components
+of the publishing stack.  For one example, we lack good tools for
+notebook/workflow comparison and "diffing" to support review and
+editorial processes.  For another, we lack tools to integrate with
+publishing and repository submission workflows.
+
+Eighth and finally, there are many communities interested in this
+question, and little centrality or cohesion in the online space.  We
+hope we can help nucleate a community that grows beyond the "that's
+neat!" tech-demo experience to tackle the core technical and cultural
+aspects of building reproducibility into our publishing ecosystem.
 
+## The proposal:
 
-## Summary
-
-Today scientific results are published as static documents, limited in
-length and content by the requirements of printed journals. In the 17th
-century the printed journal was a groundbreaking invention, today we
-can do a lot better: a web application that allows users to
-publish their research work as an interactive document instead of a
-static PDF, instantly reusable by other researchers.
-
-We
-propose to make reusability (and thereby reproducibility) a first-class citizen in computer
-aided research by enabling the publication of dynamic and interactive
-scientific narratives that can be verified, altered, reused, and
-cited from a web browser. This new interactive reusability will increase the
-transparency, quality and educational value of published scientific
-work.
-
-While sharing research data and code are solved problems for a most fields of research, applying
-this shared code to the shared data requires great technical
-expertise.  By not sharing the environment in which the code can be
-successfully applied to the data, we create a high barrier to reuse.
-We will lower the barrier to reuse by providing a web interface that
-lets the reader of a journal article set up an environment identical to the author's, use it,
-and then download it for use in future research.
-
-This project will build the infrastructure required to create and
-publish scientific output that is more than a simple, static
-document. Allowing others to instantly apply the shared code to the
-shared data. To make this a success three things are needed:
-
-1. a web application that allows users to publish their research work
-   as an interactive document instead of a static PDF, instantly
-   reusable by other researchers;
-
-2. blue prints, tools and best practices guides for creating such a
-   publication; and
-
-3. documentation and education on how to use such a publication.
+We therefore propose to use the award money to execute a "vertical
+spike" through the problem space, focused on tackling common
+challenges and integrating existing tools, to demonstrate as complete
+a pipeline as possible.  Products from this would include:
 
-By publishing executable content and making it as simple as clicking a
-button in your browser to try it out, the pace of computer aided
-research will accelerate, and its quality will improve.
+* a repository specification laying out the location of the dependency
+  specification, input data, output data, output paper, and workflow
+  execution details;
 
+* a Web app allowing users to discover, interact and experiment with
+  publications integrating the tools and methods advocated here. We
+  include a mock up of the user-interface for this in the OSP submission;
 
-## The State of the Art
+* [Docker]-based execution instructions for non-cloud based development and
+  execution of papers;
 
-The individual technical components required for creating an open,
-reusable and rich publication have recently become available to those
-following the cutting edge of technology.
+* expanded support for [RMarkdown] and other components of the [R] ecosystem;
 
-[mybinder.org](http://mybinder.org) and
-[everware.xyz](http://everware.xyz) (created and developed by TH) are
-two brand new projects that allow anyone to turn a GitHub repository
-into a collection of interactive Jupyter notebooks. The notebooks are
-executed on cloud resources and allow anyone to run, modify, and reuse
-them from their browser.
+* an opinionated "green field" repository creation Web app and
+  associated command line tool;
 
-Currently assembling the right technological solutions for an open and
-reusable publication requires considerable technical skill, often
-beyond the level of expertise of individual scientists. In addition
-having to assemble the components for a reusable publication from scratch is a daunting and high risk
-task. Researchers who invest time and resources risk constructing a
-solution which in the end is not up to scratch, leading to wasted
-effort.
+* demo integration with [TravisCI], [Zenodo], and [ORCID].
 
-Below we list some of the tools available to address each of the
-technical challenges:
+In addition to these specific products, we would brainstorm, experiment,
+and build concept demos around workflow composition, notebook longevity,
+paper repository diffing and merging, and production of publication-ready
+XML.
 
-* Collaborative creation of code is solved by `git` and [GitHub](//github.com)
-  or similar distributed version control systems
+The technical implementation, concept demos, and brainstorming would
+be supported by a community nucleated by this project, which we would
+support with social media channels, in-person hackathons, blog posts,
+and potentially publications.
 
-* Preserving the environment in which code runs is solved by
-  [docker](//docker.com) containers
+### A mockup
 
-* Managing workflows is solved by tools like `make`, `snakemake`, etc
-
-* Notebooks (e.g. Jupyter, Rmarkdown, ...) allow you to describe the
-  narrative of your computations, combining text, code, figures, equations,
-  and interactive elements
-
-* Continuous integration helps you spot regressions. If a robot can run
-  your analysis, it is reproducible!
-
-* [Zenodo](//zenodo.org) is an open dependable home for science,
-  enabling researchers to share and preserve any research outputs in
-  any size, any format and from any science. It can be used to make
-  your code citable and assign a DOI
-
-These tools are in widespread use outside of academia, are considered
-best practices, and are part of a flourishing open-source ecosystem
-based on the idea of interoperability. We believe that by relying on
-widely adopted open-source tools, the risks with long term
-availability and support are minimised.
-
-What is missing in academia is the experience of how to combine them
-into a working pipeline. We also need better user interfaces that are
-streamlined for the academic use-case.
-
-Several efforts exist to create interactive and reusable scientific
-articles. A non exhaustive list: [gitxiv](http://gitxiv.com/), [Open
-Science Framework](https://osf.io),
-[Galaxy](https://galaxyproject.org/),
-[OpenML](http://www.openml.org/), [IPOL](http://www.ipol.im/), and [Exec and share companion
-sites](http://www.execandshare.org/CompanionSite/). To our knowledge,
-none provides what we propose. They either lack executability or generality, create
-lock in, require additional human effort after publication, or focus on
-workflow management.
-
-
-## Solution
-
-This project will build a vertically integrated prototype
-demonstrating the publication of dynamic and interactive scientific
-narratives. The project will be organised as an open-source project
-allowing anyone to join and contribute to its development.
-
-![Executable paper UI mock up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up")
-
-Specifically, we will do this by:
-
-* developing a simple specification for dependencies, code execution,
-  data/parameter inputs, and data/paper outputs.  This specification
-  will initially be designed to allow services like
-  [mybinder](http://mybinder.org/) and
-  [everware](https://betatim.github.io/posts/project-everware-reusable-science/)
-  to execute workflows;
-
-* implementing command-line software and Web interfaces to create,
-  configure, and execute (locally or remotely) scientific repositories
-  that provide this specification;
-
-* extending the current Jupyter-based systems to also interact with
-  R Markdown and work within the R ecosystem more cleanly;
-
-* integrating our implementation with GitHub, continuous integration,
-  and pull requests, to facilitate review, interaction, and collaboration;
-
-* integrating our implementation with Zenodo, to provide DOIs for 
-  citation;
-
-* create guides and educational material on how to use the tools;
-
-* prototyping ideas for composition of repositories;
-
-* engaging with the larger academic community including scientists,
-  publishers, and librarians around executable papers and workflows
-  and specifications for same;
-
-For open-source projects a healthy community is king. Fragmentation
-leads to many efforts each duplicating effort and not able to achieve
-their goals. Therefore we will aim for incremental improvement of
-existing projects where possible as opposed to creating new ones, and
-building consensus within the existing communities through workshops.
-
-
-## Idea (story mode)
-
-Today scientific results are published as static documents. Limited in
-length and content by the requirement of printed journals. In the 17th
-century the printed journal was a groundbreaking invention, today we
-can do a lot better.
-
-If code and data related to the article are being shared they are
-usually attached as supplementary material. This material is available
-online but requires several clicks to locate. The data is stored in
-yet another location. Creating new work based on the shared material is
-laborious. Combined with the fact that research code is by its very
-nature not made for "consumers", reuse of the tools used to obtain the
-new scientific knowledge published in an article is unlikely. Instead
-they are reimplemented from scratch or older, less sophisticated
-methods are used. Either way the progress of science is slowed down.
-
-Reusing someone else's work is risky. You might invest a lot of time
-upfront understanding the code and data, hoping to save time in the
-long term for your own research, but these savings might never
-materialise. Lowering the bar to entry is crucial as it reduces the
-risk associated with trying out other researcher's code. We propose
-executable papers as a way to achieve just that.
-
-Executable papers can be achieved with a three step program:
-
- 1. automatic execution of code so that we can be sure that this
- code was used to create these results;
-
- 2. provide a simple mechanism for individuals to create a copy of the
- code and make small modifications before re-running the analysis; and
-
- 3. a method for researchers to download the modified executable paper
- to their local computer in order to use it as basis for future
- research projects.
-
-To create novel research findings data, methods and visualisations
-from several executable papers can be combined. This significantly
-reduces turn around time and increases the rate at which new knowledge
-is created. Starting from an existing executable paper is risk free as
-we know that it will run and produce the results advertised.
-
-Creating an executable paper is not without cost. However this initial
-investment is recuperated through increased
-reputation, and reduced effort at later stages of a research
-project. The last point is crucial. Reusability will always be a
-second class citizen as long as the tools required do not deliver a
-benefit to the author from day one. Therefore this project delivers
-tools that make the life of scientists easier and less error
-prone. Reusability is merely a side-effect.
-
-There are many social and cultural aspects to creating and sharing
-reproducible research. Sufficiently motivated individuals will always
-manage to sabotage the system. Changing cultures is a long term
-project. This project will create the tools needed to help with this
-change in culture.
-We aim to make the transition as effortless as possible by creating
-tools and advice that adds to existing workflows and works with
-existing solutions instead of replacing them.
-
-
-## Impact
-
-Improved reusability encourages other researchers to
-build on this research which delivers impact at the time of
-publication through faster knowledge generation,
-and gains in reputation. After publication a field of research
-benefits from the high level of detail inherent to publishing the
-code, data and environment in which it was executed. Allowing
-re-analysis, meta-analysis, and use of by now "classic" research
-papers for education and outreach.
-
-
-### Short term user story
-
-The use of executable papers provides a benefit to researchers from
-day one. Each of their projects can exist in a separate, customisable
-environment that can not interact with each other. No outsiders can
-modify the environment. This prevents the "This used to work four
-weeks ago and I changed nothing!" scenario, enables rapid sharing with
-colleagues, and dramatically reduces the time and effort until new
-team members can make contributions to a project.
-
-### Long term user story
-
-Code is to data analysis what maths is to the laws of nature, the most
-precise description. Only the publication of code and environment
-together allows post hoc analysis for flawed methodology or whether a
-result was affected by a certain bug in a computer program used.
-Our proposal does not aim to solve long term archival and guaranteeing
-that an executable paper can still be executed in the distant future.
-However by enabling automated execution we facilitate detection of
-bit rot as early as possible, so that remedial action can be taken.
-
-### Outreach story 2
-
-Example from life science/medical/bio that is similar to the LEP story.
-
-### Shared knowledge for data access
-
-Datasets are often tricky to access and not well documented. Having a
-executable paper that access a database of interest to the reader
-allows the reader to see a working example of how to load and clean
-the data. Over the long term this create best practices and shared
-knowledge on accessing biomedical databases and the idiosyncrasies of
-that data.
-
-### Content mining
-
-Executable papers can directly produce, or be retrofitted, to produce
-their key results in a machine-readable format easily ingested by projects like [the
-Contentmine](http://contentmine.org), used for meta-analysis, or to build a [semantic-web](https://en.wikipedia.org/wiki/Semantic_Web).
-
-
-## Resource feasibility
-
-The proponents are researchers in data intensive fields. They have
-broad technical experience with the individual components required to
-construct the working prototype proposed here.
-
-They have a track record of contributing to open-source projects and
-growing communities around them. CTB is experienced in teaching highly
-technical tools to novices via his involvement with Software
-Carpentry. TH has built a [demonstrator](http://everware.xyz) that
-allows people to jump right in to others research code. TH
-contributes to the jupyter project which forms the core technology
-upon which the prototype will be built.
-
+![Executable paper UI mock up (animated version at http://bit.ly/osp_ui_mockup)](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up (animated version at http://bit.ly/osp_ui_mockup)")
 
 ## Budget
 
@@ -309,23 +162,12 @@ TH will commit a significant amount of his time (60-80% FTE) to this
 project in the next six months. A large part of the budget will go
 towards paying for his time.
 
-
-## Expressions of interest
-
-We contacted the following journals and received an expression of interest
-in seeing a working prototype implementing the ideas of this proposal:
-
-<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (place holder)
-
-
 ## Openness first
 
-The project will be run like an open-source project, with the
-proponents as the first members of a community we will build around
-the ideas discussed here.
+The proponents (and contributors to this [everpub proposal]) will form the first
+members of a community we will build around this proposal.
 
-The [XXXour-name-here
-proposal](https://github.com/betatim/openscienceprize) was written in
+The [R³ proposal] was written in
 the open on GitHub. A total of 16 people chose to subscribe to the
 repository and be informed about all activity, twelve people decided
 to show their support by starring the repository, and N people
@@ -335,10 +177,69 @@ incentives were offered for participation.
 This project will build on top of an existing ecosystem of open-source
 tools. We will contribute to existing open-source projects under their
 license. All newly created material and projects will be licensed
-under [BSD3](http://choosealicense.com/licenses/bsd-3-clause/) for
-code and [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) for
-other material.
+under [BSD3] for code and [CC BY 4.0] for other material.
 
+## Related efforts
+
+Several efforts exist to create interactive and reusable scientific
+articles. A non exhaustive list: [gitxiv], [Open Science Framework],
+[Galaxy], [OpenML], [IPOL], and [Exec and share companion sites]. To
+our knowledge, none provides what we propose. They either lack
+executability or generality, create lock in, require additional human
+effort after publication, or focus on workflow management.
+
+## Who we are and why that matters
+
+e.g. Active Papers and Konrad Hinsen.
+
+invite SWC folk?
+
+## Expressions of interest
+
+We contacted the following journals and received an expression of interest
+in seeing a working prototype implementing the ideas of this proposal:
+
+<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (place holder)
+
+* [Giga] - Laurie Goodman
+* [F1000] - Michael Markie
+* [Research Ideas and outcomes] - Lyubomir Penev
+* [ReScience] - Konrad Hinsen and Nicolas P. Rougier
+
+
+## Summary
+
+## Additional information
+
+### Short term user story
+
+The use of executable papers provides a benefit to researchers from
+day one. Each of their projects exists in a separate, customisable
+environment. They can not interact with each other. No outsiders can
+modify the environment. This prevents the "This worked four weeks ago
+and I changed nothing!" scenario, enables rapid sharing with
+colleagues, and dramatically reduces the time and effort until new
+team members can make contributions to a project. It increases
+reproducibility and
+
+### Long term user story
+
+Code is to data analysis what maths is to the laws of nature, the most
+precise description. Only the publication of code and environment
+together allows post hoc analysis for flawed methodology or whether a
+result was affected by a certain bug in a computer program used.
+
+## Resource feasibility
+
+The proponents are researchers in data intensive fields. They have
+vast technical experience with the individual components required to
+construct a working prototype. They have a track record of
+contributing to open-source projects and growing communities around
+projects. One of the proponents ([CTB]) is experienced in teaching
+highly technical tools to novices via his involvedment with Software
+Carpentry. One of the proponents ([TH]) has built a
+[demonstrator](http://everware.xyz) that allows people to jump right
+in to other's research code.
 
 ## Conclusion
 
@@ -362,3 +263,38 @@ for reusable science, and finally to build a community around these
 ideas.
 
 This will be amazing!
+
+
+[everpub proposal]: https://github.com/betatim/openscienceprize
+[RMarkdown]: http://rmarkdown.rstudio.com
+[R]:         https://www.r-project.org
+[Python]:    https://www.python.org
+[git]:       https://git-scm.com
+[Mercurial]: https://www.mercurial-scm.org
+[GitHub]:    https://www.github.com
+[BitBucket]: https://bitbucket.org
+[GitLab]:    https://gitlab.com/
+[Debian]:    https://www.debian.org/
+[Conda]:     https://www.continuum.io/why-anaconda
+[Docker]:    https://www.docker.com
+[Jupyter]:   http://jupyter.org
+[TravisCI]:  https://travis-ci.org
+[Zenodo]:    https://zenodo.org
+[ORCID]:     http://orcid.org
+[mybinder]:  http://mybinder.org
+[tmpnb]:     https://tmpnb.org
+[everware]:  http://everware.xyz
+[gitxiv]:    http://gitxiv.com/
+[Galaxy]:    https://galaxyproject.org/
+[OpenML]:    http://www.openml.org/
+[IPOL]:      http://www.ipol.im/
+[BSD3]:      http://choosealicense.com/licenses/bsd-3-clause/
+[CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/
+[Open Science Framework]: https://osf.io
+[Exec and share companion sites]: http://www.execandshare.org/CompanionSite/
+[Giga]: http://gigascience.biomedcentral.com/
+[F1000]: http://F1000.com
+[Research Ideas and outcomes]: http://riojournal.com/
+[ReScience]: https://rescience.github.io
+[CTB]: https://github.com/ctb
+[TH]:  https://github.com/betatim
