@@ -136,9 +136,28 @@ be supported by a community nucleated by this project, which we would
 support with social media channels, in-person hackathons, blog posts,
 and potentially publications.
 
+### Short term user story
+
+The use of executable papers provides a benefit to researchers from
+day one. Each of their projects exists in a separate, customisable
+environment. They can not interact with each other. No outsiders can
+modify the environment. This prevents the "This worked four weeks ago
+and I changed nothing!" scenario, enables rapid sharing with
+colleagues, and dramatically reduces the time and effort until new
+team members can make contributions to a project. It increases
+reproducibility and remixability.
+
+### Long term user story
+
+Code is to data analysis what maths is to the laws of nature, the most
+precise description. Only the publication of code and environment
+together allows post hoc analysis for flawed methodology or whether a
+result was affected by a certain bug in a computer program used.
+
 ### A mockup
 
 ![Executable paper UI mock up (animated version at http://bit.ly/osp_ui_mockup)](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up (animated version at http://bit.ly/osp_ui_mockup)")
+
 
 ## Budget
 
@@ -214,27 +233,6 @@ in seeing a working prototype implementing the ideas of this proposal:
 * [Research Ideas and outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 
-## Summary
-
-## Additional information
-
-### Short term user story
-
-The use of executable papers provides a benefit to researchers from
-day one. Each of their projects exists in a separate, customisable
-environment. They can not interact with each other. No outsiders can
-modify the environment. This prevents the "This worked four weeks ago
-and I changed nothing!" scenario, enables rapid sharing with
-colleagues, and dramatically reduces the time and effort until new
-team members can make contributions to a project. It increases
-reproducibility and remixability.
-
-### Long term user story
-
-Code is to data analysis what maths is to the laws of nature, the most
-precise description. Only the publication of code and environment
-together allows post hoc analysis for flawed methodology or whether a
-result was affected by a certain bug in a computer program used.
 
 ## Resource feasibility
 
