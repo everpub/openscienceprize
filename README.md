@@ -36,8 +36,10 @@ step: interactive, re-mixable papers.
 
 # Contributing
 
-Check out [issue #14](https://github.com/betatim/openscienceprize/issues/14)
-if you want to collaborate or become a co-proponent.
+Check out [issue #14](https://github.com/betatim/openscienceprize/issues/14).
+Introduce yourself and say hello. Though please refrain from having
+discussion in that issue. Find the most appropriate existing issue
+and contribute there or create a new one.
 
 Everyone is welcome to contribute. Discussion happens in
 [issues](https://github.com/betatim/openscienceprize/issues), and
@@ -50,7 +52,7 @@ own. Or directly create a pull request with your suggested edits.
 
 As this is about creating a entry for the open science prize, creating
 the entry should happen in the open as well. Licensing details and a
-list of contributors can be found in [LICENSE](LICENSE).
+list of contributors can be found in [LICENSE](LICENSE.md).
 
 Watch the repository - this way, you will get email notifications of
 new conversations. You can do this by clicking on 'Watch' at the top
