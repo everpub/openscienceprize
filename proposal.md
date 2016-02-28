@@ -9,7 +9,7 @@ Titus Brown (US lead)
 ## Introduction:
 
 The open source/open science community is rapidly converging around a
-set of technologies that will enable highly reproducible
+set of technologies that will enable highly reproducible and reusable
 computer-aided research.  These technologies include
 environments to encode and encapsulate dependencies, cloud compute to
 execute workflows, collaboration technologies that enable remixing,
@@ -56,10 +56,12 @@ which motivates a design where papers are but a single output of a
 more comprehensive computational workflow.
 
 First and foremost, we need a compute-independent specification
-describing the paper repository layout and requirements, along with
-outputs; such a specification would permit introspection of the
-repository to support execution and composition on compatible
-platforms.
+describing the computational workflow including not only the 
+dependencies and environment needed to execute the code, but 
+also the meta-data needed to indicate the inputs, outputs, and configuration 
+parameters of the that describe the workflow at a semantic level. 
+Such a specification would permit introspection of the
+repository to support execution, composition, and remixing.
 
 Second, we need close integration with at least one or two widely used
 cloud providers so that people can "bring their own compute".  Current
@@ -87,27 +89,27 @@ tracking ([ORCID]).
 Sixth, the current "notebook" style of execution supported by both
 Jupyter and RMarkdown limits resuability, remixability, and
 composibility of code segments.  The rich Jupyter Notebook format
-specification also presents challenges for longevity of research
-artifacts. Before we "bake" notebooks into computational
+specification also presents challenges for long term preservation of research
+products. Before we "bake" notebooks into computational
 reproducibility, we should think more deeply about how these issues
 should be addressed. (refs)
 
-Seventh, there are several (perhaps many) missing technical components
+Seventh, there are several missing technical components
 of the publishing stack for interacting with pre- and post-publication
-papers.  For one example, we lack good tools for
+papers.  For instance, we lack good tools for
 notebook/workflow comparison and "diffing" to support review and
-editorial processes.  For another, we lack tools to integrate with
+editorial processes.  Moreover, we lack tools to integrate with
 publishing and repository submission workflows.
 
 Eighth and finally, there are many communities interested in this
-question, and little centrality or cohesion in the online space.  We
-hope we can help nucleate a community that grows beyond the "that's
-neat!" tech-demo experience to tackle the core technical and cultural
-aspects of building reproducibility into our publishing ecosystem.
+question and fragmentation is a concern. We hope we can help nucleate a 
+community to help convert the initial enthusiasm of a demo experience 
+to contributions to technical and cultural aspects of building reusability 
+into our publishing ecosystem.
 
 ## The proposal:
 
-We therefore propose to use the award money to execute a "vertical
+We therefore propose to use the award money to develop a "vertical
 spike" through the problem space, focused on tackling common
 challenges and integrating existing tools, to demonstrate as complete
 a pipeline as possible.  Products from this would include:
@@ -142,8 +144,8 @@ and potentially publications.
 
 It is important for us to note that we have no expectation of solving
 all or even most of the technical problems in this space, but we
-believe that an attempt towards a more general implementation can
-be of great and immediate value.
+believe that we can make valuable progress in a specific vertical spike
+that would be of immediate value and inform a more general implementation.
 
 ### Short term user story
 
