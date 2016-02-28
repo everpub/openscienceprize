@@ -233,7 +233,7 @@ of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 [Konrad Hinsen](http://dirac.cnrs-orleans.fr/plone/Members/hinsen) is
 a computational researcher who is interested in better tools for
 reproducible science
-(e.g. [ActivePapers](https://khinsen.wordpress.com/2013/09/27/activepapers-for-python/).
+(e.g. [ActivePapers](https://khinsen.wordpress.com/2013/09/27/activepapers-for-python/) ).
 
 [C. Titus Brown](https://impactstory.org/TitusBrown) is a genomics
 and bioinformatics researcher at UC Davis who is also an active open
@@ -245,7 +245,7 @@ at NYU and co-lead of the open science and reproducibility working group
 as part of the Moore-Sloan Data Science Environment at NYU, a PI for the
 NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software, 
 and founded the [Recast](https://github.com/recast-hep) project aimed at
-making analysis of particle physics data reproducible and reusable.
+making analysis of particle physics data analysis reproducible and reusable.
 
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
