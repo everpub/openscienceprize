@@ -88,7 +88,8 @@ reproducibility, we should think more deeply about how these issues
 should be addressed. (refs)
 
 Seventh, there are several (perhaps many) missing technical components
-of the publishing stack.  For one example, we lack good tools for
+of the publishing stack for interacting with pre- and post-publication
+papers.  For one example, we lack good tools for
 notebook/workflow comparison and "diffing" to support review and
 editorial processes.  For another, we lack tools to integrate with
 publishing and repository submission workflows.
@@ -133,6 +134,11 @@ The technical implementation, concept demos, and brainstorming would
 be supported by a community nucleated by this project, which we would
 support with social media channels, in-person hackathons, blog posts,
 and potentially publications.
+
+It is important for us to note that we have no expectation of solving
+all or even most of the technical problems in this space, but we
+believe that an attempt towards a more general implementation can
+be of great and immediate value.
 
 ### A mockup
 
@@ -232,7 +238,18 @@ in seeing a working prototype implementing the ideas of this proposal:
 * [Research Ideas and outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 
-## Summary
+## Other communities to engage
+
+If we are awarded a prize, we will:
+
+* invite librarians to the table to contribute their perspective on
+  archiving publications and planning for data longevity;
+
+* talk to the many companies and non-profits working in this space,
+  including Figshare, Overleaf, and Authorea.
+
+* engage with less technical communities in the biology world to discuss
+  integration with other authoring tools;
 
 ## Conclusion
 
