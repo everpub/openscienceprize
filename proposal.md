@@ -4,8 +4,6 @@ Tim Head (Europe lead)
 
 Titus Brown (US lead)
 
-et al.
-
 ## Abstract:
 
 ## Introduction:
@@ -47,7 +45,7 @@ Even more recently, these technologies have been combined
 by open science enthusiasists to deliver components that support
 highly reproducible open science.  For example, [mybinder], [everware] and [tmpnb]
 enable the execution of Jupyter notebooks in highly configurable
-remote containers; (XXX more here)..
+remote containers; (XXX more here).
 
 Despite these advances, there are still many missing components of a
 system for executable papers.
@@ -90,7 +88,8 @@ reproducibility, we should think more deeply about how these issues
 should be addressed. (refs)
 
 Seventh, there are several (perhaps many) missing technical components
-of the publishing stack.  For one example, we lack good tools for
+of the publishing stack for interacting with pre- and post-publication
+papers.  For one example, we lack good tools for
 notebook/workflow comparison and "diffing" to support review and
 editorial processes.  For another, we lack tools to integrate with
 publishing and repository submission workflows.
@@ -136,6 +135,11 @@ be supported by a community nucleated by this project, which we would
 support with social media channels, in-person hackathons, blog posts,
 and potentially publications.
 
+It is important for us to note that we have no expectation of solving
+all or even most of the technical problems in this space, but we
+believe that an attempt towards a more general implementation can
+be of great and immediate value.
+
 ### Short term user story
 
 The use of executable papers provides a benefit to researchers from
@@ -173,9 +177,9 @@ achieve this goal:
 * Organising hackathons to engage with the community and
   build consensus on the specification and use-cases.
 
-Cloud services for a live demonstrator. We will avoid buying physical
-objects as it is not clear what should happen with them at the end of
-the project.
+* Cloud services for a live demonstrator. We will avoid buying physical
+  objects as it is not clear what should happen with them at the end of
+  the project.
 
 TH will commit a significant amount of his time (60-80% FTE) to this
 project in the next six months. A large part of the budget will go
@@ -193,6 +197,15 @@ showed their support by starring the repository, and N people
 actively contributed to the creation of this proposal (XXX). No financial
 incentives were offered for participation.
 
+We have deliberately avoided converging on technical details in this
+proposal, except where consensus was quickly reached; discussion
+continues in [the proposal github repository].  We think this is a
+feature, not a bug, because it surfaces complex issues and details
+without cutting off discussion. It also demonstrates our approach to
+open discussion! Please see [issue
+#16](https://github.com/betatim/openscienceprize/issues/16) for one
+excellent example of a discussion centering around specifying workflows.
+
 This project will build on top of an existing ecosystem of open-source
 tools. We will contribute to existing open-source projects under their
 license. All newly created material and projects will be licensed
@@ -209,7 +222,14 @@ effort after publication, or focus on workflow management.
 
 ## Who we are
 
-Tim Head XXX.
+[Tim Head](https://betatim.github.io/) is a experimental particle
+physicist currently working at [CERN](http://home.cern/). He is an
+[active](https://github.com/betatim) open source developer focussing
+on building better tools for reproducible science and
+machine-learning.  Tim is an invited member of the inaugural [Open
+Leaders
+Cohort](https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort)
+of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 
 [Konrad Hinsen](http://dirac.cnrs-orleans.fr/plone/Members/hinsen) is
 a computational researcher who is interested in better tools for
@@ -221,7 +241,18 @@ and bioinformatics researcher at UC Davis who is also an active open
 source developer and open science blogger.  Several of his publications
 are highly reproducible already.
 
-## Expressions of interest
+The proponents are researchers in data intensive fields. They have
+significant technical experience with the individual components
+required to construct a working prototype. They also have a track
+record of contributing to open-source projects and growing communities
+around projects. In addition, one of the proponents ([CTB]) is
+experienced in teaching highly technical tools to novices via his
+involvement with Software Carpentry and his training initiative at UC
+Davis. Another of the proponents ([TH]) has built a
+[demonstrator](http://everware.xyz) that allows people to jump right
+in to other's research code.
+
+## Expressions of interest in this project
 
 We contacted the following journals and received an expression of interest
 in seeing a working prototype implementing the ideas of this proposal:
@@ -233,26 +264,26 @@ in seeing a working prototype implementing the ideas of this proposal:
 * [Research Ideas and outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 
+## Other communities to engage
 
-## Resource feasibility
+If we are awarded a prize, we will:
 
-The proponents are researchers in data intensive fields. They have
-vast technical experience with the individual components required to
-construct a working prototype. They have a track record of
-contributing to open-source projects and growing communities around
-projects. One of the proponents ([CTB]) is experienced in teaching
-highly technical tools to novices via his involvedment with Software
-Carpentry. One of the proponents ([TH]) has built a
-[demonstrator](http://everware.xyz) that allows people to jump right
-in to other's research code.
+* invite librarians to the table to contribute their perspective on
+  archiving publications and planning for data longevity;
+
+* talk to the many companies and non-profits working in this space,
+  including Figshare, Overleaf, and Authorea.
+
+* engage with less technical communities in the biology world to discuss
+  integration with other authoring tools;
 
 ## Conclusion
 
 Reproducibility is a main principle of the scientific method. We
 propose to make reproducibility a first-class citizen in computer
 aided research by enabling the publication of dynamic and interactive
-scientific narratives that can be verified, altered, reused, and
-cited from a web browser. This new interactive reusability will increase the
+scientific narratives that can be verified, altered, reused, and cited
+from a web browser. This new interactive reusability will increase the
 transparency, quality and educational value of published scientific
 work.
 
@@ -261,14 +292,24 @@ open-source communities as demonstrated by the interest in the
 preparation of this proposal and the expressions of interest from
 publishers.
 
-Concretely we propose to: build a web application for the publication
+Concretely, we propose to: build a web application for the publication
 of dynamic and interactive scientific narratives, create tools and
 educational material to accelerate the adoption of existing solutions
 for reusable science, and finally to build a community around these
 ideas.
 
-This will be amazing!
+## Links and additional reading
 
+[Collaborative cloud-enabled tools allow rapid, reproducible
+biological
+insights](http://www.nature.com/ismej/journal/v7/n3/full/ismej2012123a.html),
+a publication in ISME by Min Ragan-Kelly et al., demonstrating the
+power of this approach.
+
+[Is mybinder a solution for next-gen computational science
+publishing?](http://ivory.idyll.org/blog/2016-mybinder.html), a blog
+post by CTB, talks about the potential value of mybinder.  The
+comments on composability by KH are also very interesting.
 
 [everpub proposal]: https://github.com/betatim/openscienceprize
 [RMarkdown]: http://rmarkdown.rstudio.com
