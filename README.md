@@ -1,8 +1,9 @@
-# RRR - Reusable & Reproducible Research
+# Everpub: reusable research, 21st century style
 
-This is an entry for
+Everpub is an entry for
 [openscienceprize.org](//openscienceprize.org). Read [The Pitch](pitch.md) and
 join in if you are interested!
+Read [the full proposal](proposal-v2.md).
 
 Participants: Tim Head, Titus Brown, et al.
 
@@ -31,8 +32,6 @@ automate every step. Opinionated. Helps setup structure of a research
 project. A toolbox, not a framework. Most individual steps already
 have fantastic solutions out there, people should use them! Final
 step: interactive, re-mixable papers.
-
-Read [the full proposal](proposal.md).
 
 
 # Contributing
