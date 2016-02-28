@@ -34,18 +34,18 @@ long-term interactions.
 In recent years, a robust set of technologies have emerged that are
 being applied to the problem of reproducible computational
 publications and narrative data analysis.  These include widely used
-languages with a robust ecosystem of libraries (R and Python),
+languages with a robust ecosystem of libraries ([R] and [Python]),
 distributed version control systems that support collaboration,
-remixing, and forking (git and Mercurial), platforms to host
-collaboration around digital objects (GitHub, BitBucket, and GitLab),
+remixing, and forking ([git] and [Mercurial]), platforms to host
+collaboration around digital objects ([GitHub], [BitBucket], and [GitLab]),
 isolated execution platforms (virtual machines, cloud computing, and
-containers), configuration and dependency specification (Debian,
-conda, Docker), "notebook" technologies (Jupyter, RMarkdown), DOI
+containers), configuration and dependency specification ([Debian],
+[conda], [Docker]), "notebook" technologies ([Jupyter], [RMarkdown]), DOI
 minting, and many others (XXX more here).
 
 Even more recently, these technologies have been combined
 by open science enthusiasists to deliver components that support
-highly reproducible open science.  For example, mybinder and tmpnb
+highly reproducible open science.  For example, [mybinder] and [tmpnb]
 enable the execution of Jupyter notebooks in highly configurable
 remote containers; (XXX more here)..
 
@@ -67,8 +67,8 @@ simple methods for local development and execution on laptops,
 workstations, HPCs, and private clouds.
 
 Third, we need to expand support and gain experience with additional
-literate data analysis ecosystems - namely, R and RMarkdown.  The
-technologies mentioned above natively support Jupyter, which is not as
+literate data analysis ecosystems - namely, [R] and [RMarkdown]. The
+technologies mentioned above natively support [Jupyter], which is not as
 widely used in the biomedical research environment as RMarkdown.
 
 Fourth, there is as yet no simple and opinionated way to get started
@@ -78,8 +78,8 @@ no good starting point, and blocks the creation of training materials.
 
 Fifth, we lack ready integration with many useful services such as
 continuous integration (to run executable papers on pull requests with
-e.g. TravisCI), DOI minting (with e.g. Zenodo), and authorship
-tracking (ORCID).
+e.g. [TravisCI]), DOI minting (with e.g. [Zenodo]), and authorship
+tracking ([ORCID]).
 
 Sixth, the current "notebook" style of execution supported by both
 Jupyter and RMarkdown limits resuability, remixability, and
@@ -112,15 +112,15 @@ a pipeline as possible.  Products from this would include:
   specification, input data, output data, output paper, and workflow
   execution details;
 
-* Docker-based execution instructions for non-cloud based development and
+* [Docker]-based execution instructions for non-cloud based development and
   execution of papers;
 
-* expanded support for RMarkdown and other components of the R ecosystem;
+* expanded support for [RMarkdown] and other components of the [R] ecosystem;
 
 * an opinionated "green field" repository creation Web app and
   associated command line tool;
 
-* demo integration with TravisCI, Zenodo, and ORCID.
+* demo integration with [TravisCI], [Zenodo], and [ORCID].
 
 In addition to these specific products, we would brainstorm, experiment,
 and build concept demos around workflow composition, notebook longevity,
@@ -160,12 +160,10 @@ towards paying for his time.
 
 ## Openness first
 
-The proponents (and contributors to
-http://github.com/betatim/openscienceprize) will form the first members of a
-community we will build around this proposal.
+The proponents (and contributors to this [R³ proposal]) will form the first
+members of a community we will build around this proposal.
 
-The [XXXour-name-here
-proposal](https://github.com/betatim/openscienceprize) was written in
+The [R³ proposal] was written in
 the open on GitHub. A total of 16 people chose to subscribe to the
 repository and be informed about all activity, twelve people decided
 to show their support by starring the repository, and N people
@@ -175,21 +173,16 @@ incentives were offered for participation.
 This project will build on top of an existing ecosystem of open-source
 tools. We will contribute to existing open-source projects under their
 license. All newly created material and projects will be licensed
-under [BSD3](http://choosealicense.com/licenses/bsd-3-clause/) for
-code and [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) for
-other material.
+under [BSD3] for code and [CC BY 4.0] for other material.
 
 ## Related efforts
 
 Several efforts exist to create interactive and reusable scientific
-articles. A non exhaustive list: [gitxiv](http://gitxiv.com/), [Open
-Science Framework](https://osf.io),
-[Galaxy](https://galaxyproject.org/),
-[OpenML](http://www.openml.org/), [IPOL](http://www.ipol.im/), and [Exec and share companion
-sites](http://www.execandshare.org/CompanionSite/). To our knowledge,
-none provides what we propose. They either lack executability or generality, create
-lock in, require additional human effort after publication, or focus on
-workflow management.
+articles. A non exhaustive list: [gitxiv], [Open Science Framework],
+[Galaxy], [OpenML], [IPOL], and [Exec and share companion sites]. To
+our knowledge, none provides what we propose. They either lack
+executability or generality, create lock in, require additional human
+effort after publication, or focus on workflow management.
 
 ## Who we are and why that matters
 
@@ -203,6 +196,11 @@ We contacted the following journals and received an expression of interest
 in seeing a working prototype implementing the ideas of this proposal:
 
 <https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (place holder)
+
+* [Giga] - Laurie Goodman
+* [F1000] - Michael Markie
+* [Research Ideas and outcomes] - Lyubomir Penev
+* [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 
 
 ## Summary
@@ -233,9 +231,9 @@ The proponents are researchers in data intensive fields. They have
 vast technical experience with the individual components required to
 construct a working prototype. They have a track record of
 contributing to open-source projects and growing communities around
-projects. One of the proponents (CTB) is experienced in teaching
+projects. One of the proponents ([CTB]) is experienced in teaching
 highly technical tools to novices via his involvedment with Software
-Carpentry. One of the proponents (TH) has built a
+Carpentry. One of the proponents ([TH]) has built a
 [demonstrator](http://everware.xyz) that allows people to jump right
 in to other's research code.
 
@@ -261,3 +259,37 @@ for reusable science, and finally to build a community around these
 ideas.
 
 This will be amazing!
+
+
+[R³ proposal]: https://github.com/betatim/openscienceprize
+[RMarkdown]: http://rmarkdown.rstudio.com
+[R]:         https://www.r-project.org
+[Python]:    https://www.python.org
+[git]:       https://git-scm.com
+[Mercurial]: https://www.mercurial-scm.org
+[GitHub]:    https://www.github.com
+[BitBucket]: https://bitbucket.org
+[GitLab]:    https://gitlab.com/
+[Debian]:    https://www.debian.org/
+[Conda]:     https://www.continuum.io/why-anaconda
+[Docker]:    https://www.docker.com
+[Jupyter]:   http://jupyter.org
+[TravisCI]:  https://travis-ci.org
+[Zenodo]:    https://zenodo.org
+[ORCID]:     http://orcid.org
+[mybinder]:  http://mybinder.org
+[tmpnb]:     https://tmpnb.org
+[gitxiv]:    http://gitxiv.com/
+[Galaxy]:    https://galaxyproject.org/
+[OpenML]:    http://www.openml.org/
+[IPOL]:      http://www.ipol.im/
+[BSD3]:      http://choosealicense.com/licenses/bsd-3-clause/
+[CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/
+[Open Science Framework]: https://osf.io
+[Exec and share companion sites]: http://www.execandshare.org/CompanionSite/
+[Giga]: http://gigascience.biomedcentral.com/
+[F1000]: http://F1000.com
+[Research Ideas and outcomes]: http://riojournal.com/
+[ReScience]: https://rescience.github.io
+[CTB]: https://github.com/ctb
+[TH]:  https://github.com/betatim
