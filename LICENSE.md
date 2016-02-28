@@ -3,4 +3,10 @@ All the material in this repository is licensed under [CC BY
 
 (please add your name below if you have contributed to the proposal)
 
-Copyright 2016 Tim Head
+Copyright 2016 the everpub contributors
+
+# Contributors
+
+Titus Brown
+Tim Head
+Konrad Hinsen
