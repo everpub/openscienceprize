@@ -17,7 +17,7 @@ and text formats that enable comparison and merging.
 
 We believe that the time is right to develop a vertical spike through the
 problem space, with tools to go from an empty directory to a fully
-rendered paper with an associated workflow that executed, reviewed, and
+rendered paper with an associated workflow that can be executed, reviewed, and
 remixed. We will explore a specific vertical integration of the existing tools
 in a focused way, find points of general technical agreement, and
 map areas where further work is needed.
