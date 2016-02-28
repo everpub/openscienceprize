@@ -3,7 +3,7 @@
 Everpub is an entry for
 [openscienceprize.org](//openscienceprize.org). Read [The Pitch](pitch.md) and
 join in if you are interested!
-Read [the full proposal](proposal-v2.md).
+Read [the full proposal](proposal.md).
 
 Participants: Tim Head, Titus Brown, et al.
 
