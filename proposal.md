@@ -247,6 +247,10 @@ NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software,
 and founded the [Recast](https://github.com/recast-hep) project aimed at
 making analysis of particle physics data analysis reproducible and reusable.
 
+[Lukas Heinrich](https://github.com/lukasheinrich) is a experimental particle
+physicist involved in bringing reproducibility and reusability to the LHC experiments at CERN as
+the lead developer of the [Recast](https://github.com/recast-hep) project.
+
 [Andrey Ustyuzhanin](https://github.com/anaderi) head of interdisciplinary research group at Yandex School of Data Analysis ([YSDA](https://yandexdataschool.com)). His group is involved in data science-intensive research in fundamental science. YSDA is full member of [LHCb collaboration](http://lhcb.web.cern.ch/lhcb/), [SHiP collaboration](http://ship.web.cern.ch/ship/) and [CRAYFIS](http://crayfis.io). Interdisciplinary research success is highly sensitive to making research as much transparent for peers from domains involved as possible. Andrey is co-founder of [everware] and [Reprodicuble Experiment Platform](https://github.com/yandex/rep) projects.
 
 [Nicolas P. Rougier](http://www.labri.fr/perso/nrougier/) is a researcher in
