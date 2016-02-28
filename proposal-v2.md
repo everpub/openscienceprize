@@ -1,4 +1,4 @@
-# Research dissemination, 21st century style
+# Everpub: reusable research, 21st century style
 
 Tim Head (Europe lead)
 
