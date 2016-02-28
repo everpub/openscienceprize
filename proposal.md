@@ -56,10 +56,10 @@ which motivates a design where papers are but a single output of a
 more comprehensive computational workflow.
 
 First and foremost, we need a compute-independent specification
-describing the computational workflow including not only the 
+of the computational workflow including not only the 
 dependencies and environment needed to execute the code, but 
 also the meta-data needed to indicate the inputs, outputs, and configuration 
-parameters of the that describe the workflow at a semantic level. 
+parameters that describe the workflow at a semantic level. 
 Such a specification would permit introspection of the
 repository to support execution, composition, and remixing.
 
