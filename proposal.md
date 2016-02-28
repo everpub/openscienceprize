@@ -202,8 +202,8 @@ proposal, except where consensus was quickly reached; discussion
 continues in [the proposal github repository].  We think this is a
 feature, not a bug, because it surfaces complex issues and details
 without cutting off discussion. It also demonstrates our approach to
-open discussion! Please see [issue
-#16](https://github.com/betatim/openscienceprize/issues/16) for one
+open discussion! Please see 
+[issue #16](https://github.com/betatim/openscienceprize/issues/16) for one
 excellent example of a discussion centering around specifying workflows.
 
 This project will build on top of an existing ecosystem of open-source
@@ -226,9 +226,8 @@ effort after publication, or focus on workflow management.
 physicist currently working at [CERN](http://home.cern/). He is an
 [active](https://github.com/betatim) open source developer focussing
 on building better tools for reproducible science and
-machine-learning.  Tim is an invited member of the inaugural [Open
-Leaders
-Cohort](https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort)
+machine-learning.  Tim is an invited member of the inaugural 
+[Open Leaders Cohort](https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort)
 of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 
 [Konrad Hinsen](http://dirac.cnrs-orleans.fr/plone/Members/hinsen) is
@@ -240,6 +239,13 @@ reproducible science
 and bioinformatics researcher at UC Davis who is also an active open
 source developer and open science blogger.  Several of his publications
 are highly reproducible already.
+
+[Kyle Cranmer](http://theoryandpractice.org) is a physics professor
+at NYU and co-lead of the open science and reproducibility working group
+as part of the Moore-Sloan Data Science Environment at NYU, a PI for the
+NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software, 
+and founded the [Recast](https://github.com/recast-hep) project aimed at
+making analysis of particle physics data reproducible and reusable.
 
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
@@ -263,6 +269,7 @@ in seeing a working prototype implementing the ideas of this proposal:
 * [F1000] - Michael Markie
 * [Research Ideas and outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
+* [Authorea](https://www.authorea.com/) - Alberto Pepe
 
 ## Other communities to engage
 
