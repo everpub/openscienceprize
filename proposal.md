@@ -39,7 +39,7 @@ collaboration around digital objects ([GitHub], [BitBucket], and [GitLab]),
 isolated execution platforms (virtual machines, cloud computing, and
 containers), configuration and dependency specification ([Debian],
 [conda], [Docker]), "notebook" technologies ([Jupyter], [RMarkdown]), DOI
-minting, and many others (XXX more here).
+minting, and many others (**XXX more here**).
 
 Even more recently, these technologies have been combined
 by open science enthusiasists to deliver components that support
@@ -193,8 +193,8 @@ members of a community we will build around this proposal.
 The [everpub proposal] was written in
 the open on GitHub. A total of 16 people subscribed to the
 repository to be informed about all activity, twelve people
-showed their support by starring the repository, and N people
-actively contributed to the creation of this proposal (XXX). No financial
+showed their support by starring the repository, and **N** people
+actively contributed to the creation of this proposal (**XXX**). No financial
 incentives were offered for participation.
 
 We have deliberately avoided converging on technical details in this
@@ -233,7 +233,7 @@ of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 [Konrad Hinsen](http://dirac.cnrs-orleans.fr/plone/Members/hinsen) is
 a computational researcher who is interested in better tools for
 reproducible science
-(e.g. [ActivePapers](https://khinsen.wordpress.com/2013/09/27/activepapers-for-python/).
+(e.g. [ActivePapers](https://khinsen.wordpress.com/2013/09/27/activepapers-for-python/) ).
 
 [C. Titus Brown](https://impactstory.org/TitusBrown) is a genomics
 and bioinformatics researcher at UC Davis who is also an active open
@@ -245,7 +245,7 @@ at NYU and co-lead of the open science and reproducibility working group
 as part of the Moore-Sloan Data Science Environment at NYU, a PI for the
 NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software, 
 and founded the [Recast](https://github.com/recast-hep) project aimed at
-making analysis of particle physics data reproducible and reusable.
+making analysis of particle physics data analysis reproducible and reusable.
 
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
@@ -263,7 +263,7 @@ in to other's research code.
 We contacted the following journals and received an expression of interest
 in seeing a working prototype implementing the ideas of this proposal:
 
-<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (place holder XXX)
+<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (**place holder XXX**)
 
 * [Giga] - Laurie Goodman
 * [F1000] - Michael Markie
