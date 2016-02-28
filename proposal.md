@@ -249,7 +249,7 @@ making analysis of particle physics data analysis reproducible and reusable.
 
 [Nicolas P. Rougier]() is a researcher in computational neuroscience at the
 Neurodegerative Disease Institute (Bordeaux, France). He is an active open
-source developer and has been confronted to the
+source developer and has been confronted with the
 [reproducibility problem](http://journal.frontiersin.org/article/10.3389/fncom.2015.00030/full) in computational neuroscience. He co-founded the
 [ReScience journal](http://rescience.github.io) with Konrad Hinsen.
 
