@@ -247,6 +247,11 @@ NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software,
 and founded the [Recast](https://github.com/recast-hep) project aimed at
 making analysis of particle physics data analysis reproducible and reusable.
 
+[Lukas Heinrich](https://github.com/lukasheinrich) is a  is a experimental particle
+physicist involved in bringing reproducibility and reusability to the LHC experiments at CERN as
+the lead developer of the [Recast](https://github.com/recast-hep) project.
+
+
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
 required to construct a working prototype. They also have a track
