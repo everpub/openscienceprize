@@ -45,7 +45,7 @@ minting, and many others (XXX more here).
 
 Even more recently, these technologies have been combined
 by open science enthusiasists to deliver components that support
-highly reproducible open science.  For example, [mybinder] and [tmpnb]
+highly reproducible open science.  For example, [mybinder], [everware] and [tmpnb]
 enable the execution of Jupyter notebooks in highly configurable
 remote containers; (XXX more here)..
 
@@ -60,7 +60,7 @@ platforms.
 
 Second, we need close integration with at least one or two widely used
 cloud providers so that people can "bring their own compute".  Current
-execution systems (mybinder, tmpnb) are tied to particular providers,
+execution systems (mybinder, everware, tmpnb) are tied to particular providers,
 have no immediate system for scaling to larger compute, and do not
 integrate with any authentication systems. We also need to provide
 simple methods for local development and execution on laptops,
@@ -112,6 +112,10 @@ a pipeline as possible.  Products from this would include:
   specification, input data, output data, output paper, and workflow
   execution details;
 
+* a Web app allowing users to discover, interact and experiment with
+  publications integrating the tools and methods advocated here. We
+  include a mock up of the user-interface for this in the OSP submission;
+
 * [Docker]-based execution instructions for non-cloud based development and
   execution of papers;
 
@@ -134,7 +138,7 @@ and potentially publications.
 
 ### A mockup
 
-![Executable paper UI mock up](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up")
+![Executable paper UI mock up (animated version at http://bit.ly/osp_ui_mockup)](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "Executable paper UI mock up (animated version at http://bit.ly/osp_ui_mockup)")
 
 ## Budget
 
@@ -160,7 +164,7 @@ towards paying for his time.
 
 ## Openness first
 
-The proponents (and contributors to this [R³ proposal]) will form the first
+The proponents (and contributors to this [everpub proposal]) will form the first
 members of a community we will build around this proposal.
 
 The [R³ proposal] was written in
@@ -261,7 +265,7 @@ ideas.
 This will be amazing!
 
 
-[R³ proposal]: https://github.com/betatim/openscienceprize
+[everpub proposal]: https://github.com/betatim/openscienceprize
 [RMarkdown]: http://rmarkdown.rstudio.com
 [R]:         https://www.r-project.org
 [Python]:    https://www.python.org
@@ -279,6 +283,7 @@ This will be amazing!
 [ORCID]:     http://orcid.org
 [mybinder]:  http://mybinder.org
 [tmpnb]:     https://tmpnb.org
+[everware]:  http://everware.xyz
 [gitxiv]:    http://gitxiv.com/
 [Galaxy]:    https://galaxyproject.org/
 [OpenML]:    http://www.openml.org/
