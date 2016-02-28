@@ -12,3 +12,11 @@ The Area of Expertise Contributing to Your Project:
 Age: (you can prefer not to say)
 Sex: (you can prefer not to say)
 ```
+
+First Name: Nicolas P.
+Last Name: Rougier
+Email Address: Nicolas.Rougier@inria.fr
+Country of permanent address: France
+The Area of Expertise Contributing to Your Project: ???
+Age: 44
+Sex: Male

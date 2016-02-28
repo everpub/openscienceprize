@@ -247,6 +247,12 @@ NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software,
 and founded the [Recast](https://github.com/recast-hep) project aimed at
 making analysis of particle physics data analysis reproducible and reusable.
 
+[Nicolas P. Rougier]() is a researcher in computational neuroscience at the
+Neurodegerative Disease Institute (Bordeaux, France). He is an active open
+source developer and has been confronted to the
+[reproducibility problem](http://journal.frontiersin.org/article/10.3389/fncom.2015.00030/full) in computational neuroscience. He co-founded the
+[ReScience journal](http://rescience.github.io) with Konrad Hinsen.
+
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
 required to construct a working prototype. They also have a track
