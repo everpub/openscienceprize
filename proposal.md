@@ -167,11 +167,11 @@ towards paying for his time.
 The proponents (and contributors to this [everpub proposal]) will form the first
 members of a community we will build around this proposal.
 
-The [R³ proposal] was written in
-the open on GitHub. A total of 16 people chose to subscribe to the
-repository and be informed about all activity, twelve people decided
-to show their support by starring the repository, and N people
-actively contributed to the creation of this proposal. No financial
+The [everpub proposal] was written in
+the open on GitHub. A total of 16 people subscribed to the
+repository to be informed about all activity, twelve people
+showed their support by starring the repository, and N people
+actively contributed to the creation of this proposal (XXX). No financial
 incentives were offered for participation.
 
 This project will build on top of an existing ecosystem of open-source
@@ -182,30 +182,37 @@ under [BSD3] for code and [CC BY 4.0] for other material.
 ## Related efforts
 
 Several efforts exist to create interactive and reusable scientific
-articles. A non exhaustive list: [gitxiv], [Open Science Framework],
+articles. This includes: [gitxiv], [Open Science Framework],
 [Galaxy], [OpenML], [IPOL], and [Exec and share companion sites]. To
 our knowledge, none provides what we propose. They either lack
 executability or generality, create lock in, require additional human
 effort after publication, or focus on workflow management.
 
-## Who we are and why that matters
+## Who we are
 
-e.g. Active Papers and Konrad Hinsen.
+Tim Head XXX.
 
-invite SWC folk?
+[Konrad Hinsen](http://dirac.cnrs-orleans.fr/plone/Members/hinsen) is
+a computational researcher who is interested in better tools for
+reproducible science
+(e.g. [ActivePapers](https://khinsen.wordpress.com/2013/09/27/activepapers-for-python/).
+
+[C. Titus Brown](https://impactstory.org/TitusBrown) is a genomics
+and bioinformatics researcher at UC Davis who is also an active open
+source developer and open science blogger.  Several of his publications
+are highly reproducible already.
 
 ## Expressions of interest
 
 We contacted the following journals and received an expression of interest
 in seeing a working prototype implementing the ideas of this proposal:
 
-<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (place holder)
+<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (place holder XXX)
 
 * [Giga] - Laurie Goodman
 * [F1000] - Michael Markie
 * [Research Ideas and outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
-
 
 ## Summary
 
@@ -220,7 +227,7 @@ modify the environment. This prevents the "This worked four weeks ago
 and I changed nothing!" scenario, enables rapid sharing with
 colleagues, and dramatically reduces the time and effort until new
 team members can make contributions to a project. It increases
-reproducibility and
+reproducibility and remixability.
 
 ### Long term user story
 
