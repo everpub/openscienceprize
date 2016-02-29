@@ -42,3 +42,13 @@ The Area of Expertise Contributing to Your Project: Computational modeling, Pyth
 Age: 44
 Sex: Male
 ```
+
+```
+First Name: Kyle
+Last Name: Cranmer
+Email Address: kyle.cranmer@nyu.edu
+Country of permanent address: USA
+The Area of Expertise Contributing to Your Project: reproducible, reusable, remixible workflows
+Age: 38
+Sex: M
+```
