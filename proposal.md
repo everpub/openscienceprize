@@ -86,7 +86,7 @@ Sixth, the current "notebook" style of execution supported by both
 Jupyter and RMarkdown limits reusability, remixability, and
 composibility of code segments.  The rich Jupyter Notebook format
 specification also presents challenges for longevity of research
-artifacts. Before we "bake" notebooks into computational
+artefacts. Before we "bake" notebooks into computational
 reproducibility, we should think more deeply about how these issues
 should be addressed (see e.g. [this discussion](https://github.com/jupyter/enhancement-proposals/pull/4)).
 
@@ -183,7 +183,7 @@ the following ways:
 * **Originality**: we believe this project targets an unmet need for
   a full executable-papers process.
 
-* **Technological viability** and **Resource feasability** are addressed
+* **Technological viability** and **Resource feasibility** are addressed
   throughout.
 
 ### Short term user story
@@ -250,7 +250,7 @@ feature, not a bug, because it surfaces complex issues and details
 without cutting off discussion. It also demonstrates our approach to
 open discussion! Please see
 [issue #16](https://github.com/betatim/openscienceprize/issues/16) for one
-excellent example of a discussion centering around specifying workflows.
+excellent example of a discussion centring around specifying workflows.
 
 This project will build on top of an existing ecosystem of open-source
 tools. We will contribute to existing open-source projects under their
@@ -278,7 +278,7 @@ is a genomics and bioinformatics researcher at UC Davis with a strong
 record of reproducible research, open science advocacy, and teaching. 
 In addition, our European lead ([TH]) is an experimental particle 
 physicist and active open source developer who has built
-[everware](http://everware.xyz) as a technical demonstraitoion 
+[everware](http://everware.xyz) as a technical demonstration 
 of a system that allows people to jump right in to other's research code.
 
 A detailed list of proponents is attached to the submission as `proponents.pdf`.
