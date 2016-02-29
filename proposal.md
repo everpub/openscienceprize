@@ -276,7 +276,7 @@ around projects. Our US lead ([CTB])
 is genomics and bioinformatics researcher at UC Davis with strong 
 record of reproducible research, open science advocacy, and teaching. 
 In addition, our European lead ([TH]) is an experimental particle 
-physicist, active open source developer, and has built
+physicist and active open source developer who has built
 [everware](http://everware.xyz) as a technical demonstraitoion 
 of a system that allows people to jump right in to other's research code.
 
