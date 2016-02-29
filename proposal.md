@@ -230,10 +230,17 @@ machine-learning.  Tim is an invited member of the inaugural
 [Open Leaders Cohort](https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort)
 of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 
-[Konrad Hinsen](http://dirac.cnrs-orleans.fr/~hinsen) is
-a computational biophysicist with a long-standing interest in
-reproducible research (e.g. [ActivePapers](http://www.activepapers.org/)).
-He is a founding member of the Numerical Python team and author or co-author of several Open Source scientific software packages. He is a member of the editorial board of [Computing in Science & Engineering](https://www.computer.org/web/computingnow/cise) magazine and recently published a book on ["Computation in Science"](http://computation-in-science.khinsen.net/).
+[Konrad Hinsen](http://dirac.cnrs-orleans.fr/~hinsen) is a
+computational biophysicist at [CNRS](http://www.cnrs.fr/) with a
+long-standing interest in reproducible research
+(e.g. [ActivePapers](http://www.activepapers.org/)).  He was a
+founding member of the Numerical Python team and is an author or
+co-author of several Open Source scientific software packages. He is a
+member of the editorial boards of
+[Computing in Science & Engineering](https://www.computer.org/web/computingnow/cise)
+magazine and of [ReScience](http://rescience.github.io/). He recently
+published a book on
+["Computation in Science"](http://computation-in-science.khinsen.net/).
 
 [C. Titus Brown](https://impactstory.org/TitusBrown) is a genomics
 and bioinformatics researcher at UC Davis who is also an active open
