@@ -345,6 +345,7 @@ post by CTB, talks about the potential value of mybinder.  The
 comments on composability by KH are also very interesting.
 
 [everpub proposal]: https://github.com/betatim/openscienceprize
+[the proposal github repository]: https://github.com/betatim/openscienceprize
 [RMarkdown]: http://rmarkdown.rstudio.com
 [R]:         https://www.r-project.org
 [Python]:    https://www.python.org
