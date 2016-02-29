@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="169.8174"
+   height="200.00182"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="everpub-logo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2453"
+     inkscape:cx="172.65604"
+     inkscape:cy="58.663281"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="837"
+     inkscape:window-height="785"
+     inkscape:window-x="598"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-453.40576,-699.95241)">
+    <g
+       id="g3838"
+       transform="translate(-200.75484,-131.69517)">
+      <g
+         transform="matrix(0.16957363,0,0,0.16957363,684.56197,856.7077)"
+         inkscape:export-ydpi="89.999184"
+         inkscape:export-xdpi="89.999184"
+         id="g3820">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:50;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+           d="m -151.42858,-121.92354 616.42866,0 c 1.58285,0 332.14285,329.13143 332.14285,330.71428 l 0,795.00016 c 0,1.5828 -1.27429,2.8571 -2.85714,2.8571 l -945.71437,0 c -1.58286,0 -2.85714,-1.2743 -2.85714,-2.8571 l 0,-1122.8573 c 0,-1.58285 1.27428,-2.85714 2.85714,-2.85714 z"
+           id="rect2985"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssssssss" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:30.67077255;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:13"
+           d="m 804.88867,206.39373 -335.91798,0 c -1.61825,0 -2.92102,-1.30277 -2.92102,-2.92102 l 0,-335.91798 z"
+           id="rect3774"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csscc" />
+      </g>
+      <flowRoot
+         transform="translate(764.81668,670.93779)"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+         id="flowRoot3824"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3826"><rect
+             style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;font-family:Georgia;-inkscape-font-specification:Georgia"
+             y="212.36218"
+             x="-88.571426"
+             height="768.57141"
+             width="822.85712"
+             id="rect3828" /></flowRegion><flowPara
+           style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="flowPara3832">Ever</flowPara><flowPara
+           style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="flowPara3836">pub</flowPara></flowRoot>    </g>
+  </g>
+</svg>
