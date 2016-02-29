@@ -269,7 +269,7 @@ effort after publication, or focus on workflow management.
 
 ## Who we are
 
-The [proponents] of this proposal are researchers in data intensive fields. 
+The [proponents] of this proposal are researchers in data intensive fields.
 They have significant technical experience with the individual components
 required to construct a working prototype. They also have a track
 record of contributing to open-source projects and growing communities
@@ -346,6 +346,7 @@ post by CTB, talks about the potential value of mybinder.  The
 comments on composability by KH are also very interesting.
 
 [everpub proposal]: https://github.com/betatim/openscienceprize
+[proponents]: https://github.com/betatim/openscienceprize/blob/master/proponents.md
 [the proposal github repository]: https://github.com/betatim/openscienceprize
 [RMarkdown]: http://rmarkdown.rstudio.com
 [R]:         https://www.r-project.org
