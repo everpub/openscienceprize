@@ -249,7 +249,7 @@ continues in [the proposal github repository].  We think this is a
 feature, not a bug, because it surfaces complex issues and details
 without cutting off discussion. It also demonstrates our approach to
 open discussion! Please see
-[issue #16](https://github.com/betatim/openscienceprize/issues/16) for one
+[issue #16](https://github.com/everpub/openscienceprize/issues/16) for one
 excellent example of a discussion centring around specifying workflows.
 
 This project will build on top of an existing ecosystem of open-source
@@ -345,9 +345,9 @@ publishing?](http://ivory.idyll.org/blog/2016-mybinder.html), a blog
 post by CTB, talks about the potential value of mybinder.  The
 comments on composability by KH are also very interesting.
 
-[everpub proposal]: https://github.com/betatim/openscienceprize
-[proponents]: https://github.com/betatim/openscienceprize/blob/master/proponents.md
-[the proposal github repository]: https://github.com/betatim/openscienceprize
+[everpub proposal]: https://github.com/everpub/openscienceprize
+[proponents]: https://github.com/everpub/openscienceprize/blob/master/proponents.md
+[the proposal github repository]: https://github.com/everpub/openscienceprize
 [RMarkdown]: http://rmarkdown.rstudio.com
 [R]:         https://www.r-project.org
 [Python]:    https://www.python.org
