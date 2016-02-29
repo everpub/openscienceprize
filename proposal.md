@@ -32,12 +32,13 @@ their peers.
 
 We emphasize that we do not expect to provide a definitive solution to
 the problem in the near future. Our immediate goal is to provide a
-first usable platform for publishing computer-aided research, which
-will then be improved over time based on the feedback from its users.
-This first step will also assemble a trans-disciplinary community of
-people who have worked on individual aspects of the problem in the
-past. In addition to _enabling_ Open Science, this project is also
-meant to be an  _example_ of Open Science.
+usable platform for publishing computer-aided research, which will
+then be improved over time by bringing onboard scientists, librarians,
+and publishers. We aim at building a community around these ideas,
+which is a critical part of the success of the project. In addition to
+_enabling_ Open Science, this project is also meant to be an _example_
+of Open Science.
+
 
 ## Introduction:
 
