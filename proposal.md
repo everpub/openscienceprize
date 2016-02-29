@@ -268,16 +268,17 @@ effort after publication, or focus on workflow management.
 
 ## Who we are
 
-The proponents are researchers in data intensive fields. They have
-significant technical experience with the individual components
+The [proponents] of this proposal are researchers in data intensive fields. 
+They have significant technical experience with the individual components
 required to construct a working prototype. They also have a track
 record of contributing to open-source projects and growing communities
-around projects. In addition, one of the proponents ([CTB]) is
-experienced in teaching highly technical tools to novices via his
-involvement with [Software Carpentry](http://software-carpentry.org/) and his training initiative at UC
-Davis. Another of the proponents ([TH]) has built a
-[demonstrator](http://everware.xyz) that allows people to jump right
-in to other's research code.
+around projects. Our US lead ([CTB]) 
+is genomics and bioinformatics researcher at UC Davis with strong 
+record of reproducible research, open science advocacy, and teaching. 
+In addition, our European lead ([TH]) is an experimental particle 
+physicist, active open source developer, and has built
+[everware](http://everware.xyz) as a technical demonstraitoion 
+of a system that allows people to jump right in to other's research code.
 
 ## Expressions of interest in this project
 
@@ -377,3 +378,4 @@ comments on composability by KH are also very interesting.
 [ReScience]: https://rescience.github.io
 [CTB]: https://github.com/ctb
 [TH]:  https://github.com/betatim
+[proponents](https://github.com/betatim/openscienceprize/blob/master/proponents.md)
