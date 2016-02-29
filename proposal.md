@@ -37,13 +37,13 @@ collaboration around digital objects ([GitHub], [BitBucket], and [GitLab]),
 isolated execution platforms (virtual machines, cloud computing, and
 containers), configuration and dependency specification ([Debian], [Nix]/[Guix],
 [conda], [Docker]), "notebook" technologies ([Jupyter], [RMarkdown]), DOI
-minting, and many others (**XXX more here**).
+minting, and many others.
 
 Even more recently, these technologies have been combined
 by open science enthusiasts to deliver components that support
 highly reproducible open science.  For example, [mybinder], [everware] and [tmpnb]
 enable the execution of Jupyter notebooks in highly configurable
-remote containers; (XXX more here).
+remote containers.
 
 Despite these advances, there are still many missing components of a
 system for executable papers. Moreover, we would like to be able
@@ -88,7 +88,7 @@ composibility of code segments.  The rich Jupyter Notebook format
 specification also presents challenges for longevity of research
 artifacts. Before we "bake" notebooks into computational
 reproducibility, we should think more deeply about how these issues
-should be addressed (see e.g. [this discussion](https://github.com/jupyter/enhancement-proposals/pull/4)). (**XXX more refs**)
+should be addressed (see e.g. [this discussion](https://github.com/jupyter/enhancement-proposals/pull/4)).
 
 Seventh, there are several missing technical components
 of the publishing stack for interacting with pre- and post-publication
@@ -198,10 +198,10 @@ The proponents (and contributors to this [everpub proposal]) will form the first
 members of a community we will build around this proposal.
 
 The [everpub proposal] was written in
-the open on GitHub. A total of 16 people subscribed to the
-repository to be informed about all activity, twelve people
-showed their support by starring the repository, and **N** people
-actively contributed to the creation of this proposal (**XXX**). No financial
+the open on GitHub and was viewed by 320 unique visitors. A total of 22 people subscribed to the
+repository to be informed about all activity, 30 people
+showed their support by starring the repository, and twelve people
+actively contributed to the creation of this proposal. No financial
 incentives were offered for participation.
 
 We have deliberately avoided converging on technical details in this
@@ -244,8 +244,6 @@ in to other's research code.
 
 We contacted the following organisations and received an expression of interest
 in seeing a working prototype implementing the ideas of this proposal:
-
-<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (**place holder XXX**)
 
 * [GigaScience] - Laurie Goodman
 * [F1000] - Michael Markie
