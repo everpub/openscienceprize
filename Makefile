@@ -1,2 +1,5 @@
-pdf: proposal.md
-	pandoc -V colorlinks proposal.md -o proposal.pdf
+FORMAT = markdown+mmd_title_block
+pdf: proposal.pdf abstract.pdf
+
+%.pdf: %.md
+	pandoc --standalone --from $(FORMAT) -V colorlinks $< -o $@

@@ -1,43 +1,5 @@
-# Everpub: reusable research, 21st century style
-
-Tim Head (Europe lead)
-
-Titus Brown (US lead)
-
-## Abstract:
-
-Modern research is strongly dependent on computational tools. In
-biomedical research, computers are indispensible for analyzing large
-amounts of data and for understanding complex models through
-simulation. While the rapid advance of computing technology has
-boosted progress in many fields of science, it has also created
-barriers for scientific communication, which are particularly painful
-in the ongoing transition to Open Science. Permitting other
-researchers, let alone non-specialists, to fully understand complex research
-requires not only publishing software and datasets, but also providing
-a computational environment in which readers can explore these methods
-easily by changing parameters and input data.
-
-Over the last years, a large number of tools have been developed that
-address specific aspects of this problem, and much valuable experience
-has been gained from their use. However, orchestrating all these tools
-for either producing or exploring published research requires a level of
-technical competence that few scientists have or even wish to
-acquire. We propose to drive a vertical spike through this problem
-space, by integrating existing tools and methods into a unified whole
-whose use requires no more technical expertise than performing
-computations on a desktop computer. As a consequence, scientists will
-be able to understand, evaluate, and re-use the work of
-their peers.
-
-We emphasize that we do not expect to provide a definitive solution to
-the problem in the near future. Our immediate goal is to provide a
-usable platform for publishing computer-aided research, which will
-then be improved over time by bringing onboard scientists, librarians,
-and publishers. We aim at building a community around these ideas,
-which is a critical part of the success of the project. In addition to
-_enabling_ Open Science, this project is also meant to be an _example_
-of Open Science.
+Title:  Everpub: reusable research, 21st century style
+Author: Tim Head (Europe lead), Titus Brown (US lead)
 
 
 ## Introduction:
@@ -50,16 +12,16 @@ execute workflows, collaboration technologies that enable remixing,
 and text formats that enable comparison and merging.
 
 
-We believe that the time is right to develop a vertical spike through 
-the problem space, with tools to go from an empty directory to a fully 
-rendered paper with an associated workflow that can be executed, reviewed, 
-and remixed. We will explore a specific vertical integration of the existing 
-tools in a focused way, find points of general technical agreement, and map 
-areas where further work is needed. In the process, we will provide a 
-technical basis for demos and extension. Engagement with a broad 
-community, open discussion, and community brainstorming will build 
-consensus about "solved" problems as well as discovering the hard knots 
-of disagreement. Finally, open community building around this problem will 
+We believe that the time is right to develop a vertical spike through
+the problem space, with tools to go from an empty directory to a fully
+rendered paper with an associated workflow that can be executed, reviewed,
+and remixed. We will explore a specific vertical integration of the existing
+tools in a focused way, find points of general technical agreement, and map
+areas where further work is needed. In the process, we will provide a
+technical basis for demos and extension. Engagement with a broad
+community, open discussion, and community brainstorming will build
+consensus about "solved" problems as well as discovering the hard knots
+of disagreement. Finally, open community building around this problem will
 inevitably yield serendipitous long-term interactions.
 
 
@@ -78,22 +40,22 @@ containers), configuration and dependency specification ([Debian], [Nix]/[Guix],
 minting, and many others (**XXX more here**).
 
 Even more recently, these technologies have been combined
-by open science enthusiasists to deliver components that support
+by open science enthusiasts to deliver components that support
 highly reproducible open science.  For example, [mybinder], [everware] and [tmpnb]
 enable the execution of Jupyter notebooks in highly configurable
 remote containers; (XXX more here).
 
 Despite these advances, there are still many missing components of a
 system for executable papers. Moreover, we would like to be able
-to isolate, modify, and remix the individual components of these papers, 
-which motivates a design where papers are but a single output of a 
+to isolate, modify, and remix the individual components of these papers,
+which motivates a design where papers are but a single output of a
 more comprehensive computational workflow.
 
-First and foremost, we need a compute-independent specification 
-of the computational workflow including not only the dependencies 
-and environment needed to execute the code, but also the meta-data 
-needed to indicate the inputs, outputs, and configuration 
-parameters that describe the workflow at a semantic level. 
+First and foremost, we need a compute-independent specification
+of the computational workflow including not only the dependencies
+and environment needed to execute the code, but also the meta-data
+needed to indicate the inputs, outputs, and configuration
+parameters that describe the workflow at a semantic level.
 Such a specification would permit introspection of the repository
 to support execution, composition, and remixing.
 
@@ -135,19 +97,19 @@ notebook/workflow comparison and "diffing" to support review and
 editorial processes.  Moreover, we lack tools to integrate with
 publishing and repository submission workflows.
 
-Eighth and finally, there are many communities interested in this 
-question and fragmentation is a concern. We hope we can help nucleate 
-a community to help convert the initial enthusiasm of a demo experience 
-to contributions to technical and cultural aspects of building reusability 
+Eighth and finally, there are many communities interested in this
+question and fragmentation is a concern. We hope we can help nucleate
+a community to help convert the initial enthusiasm of a demo experience
+to contributions to technical and cultural aspects of building reusability
 into our publishing ecosystem.
 
 
 
 ## The proposal:
 
-We therefore propose to use the award money to develop a "vertical 
-spike" through the problem space, focused on tackling common 
-challenges and integrating existing tools, to demonstrate as complete 
+We therefore propose to use the award money to develop a "vertical
+spike" through the problem space, focused on tackling common
+challenges and integrating existing tools, to demonstrate as complete
 a pipeline as possible. Products from this would include:
 
 
@@ -247,7 +209,7 @@ proposal, except where consensus was quickly reached; discussion
 continues in [the proposal github repository].  We think this is a
 feature, not a bug, because it surfaces complex issues and details
 without cutting off discussion. It also demonstrates our approach to
-open discussion! Please see 
+open discussion! Please see
 [issue #16](https://github.com/betatim/openscienceprize/issues/16) for one
 excellent example of a discussion centering around specifying workflows.
 
@@ -266,7 +228,7 @@ executability or generality, create lock in, require additional human
 effort after publication, or focus on workflow management.
 
 ## Who we are
- 
+
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
 required to construct a working prototype. They also have a track
@@ -292,6 +254,7 @@ in seeing a working prototype implementing the ideas of this proposal:
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 * [Authorea](https://www.authorea.com/) - Alberto Pepe
 * [Caltech library](http://orcid.org/0000-0001-5494-4806) - Gail Clement
+* [O'Reilly Media](http://www.oreilly.com/) - Andrew Odewahn
 
 ## Other communities to engage
 
