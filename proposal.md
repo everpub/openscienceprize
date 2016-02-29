@@ -222,8 +222,8 @@ under [BSD3] for code and [CC BY 4.0] for other material.
 
 Several efforts exist to create interactive and reusable scientific
 articles. This includes: [gitxiv], [Open Science Framework],
-[Galaxy], [OpenML], [IPOL], and [Exec and share companion sites]. To
-our knowledge, none provides what we propose. They either lack
+[Galaxy], [OpenML], [IPOL], [reprozip] and [Exec and share companion sites]. To
+our knowledge, none by themself provide what we propose. They either lack
 executability or generality, create lock in, require additional human
 effort after publication, or focus on workflow management.
 
@@ -325,6 +325,7 @@ comments on composability by KH are also very interesting.
 [gitxiv]:    http://gitxiv.com/
 [Galaxy]:    https://galaxyproject.org/
 [OpenML]:    http://www.openml.org/
+[reprozip]:  https://vida-nyu.github.io/reprozip/
 [IPOL]:      http://www.ipol.im/
 [BSD3]:      http://choosealicense.com/licenses/bsd-3-clause/
 [CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/
