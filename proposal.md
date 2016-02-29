@@ -159,19 +159,19 @@ the following ways:
   scattered requirements and communities working in this area and
   bring their solutions and unsolved problems into a coherent focus.
 
-* **Impact**: The short term impact on biomedical science will be
-  minimal, because the tools and processes we are developing require
-  technical expertise not readily available in the biomedical
-  sciences.  We suspect that initial adoption will follow the trends
-  of R and Python adoption, where the bioinformatics and genomics
-  communities have led the way.  However, it is inarguable that the
-  future of the biomedical community involves increasing amounts of
-  computational work, and we believe that this project will help pave
-  the way to better computational workflows and publications.
+*   **Impact**: The short term impact on biomedical science will be
+    minimal, because the tools and processes we are developing require
+    technical expertise not readily available in the biomedical
+    sciences.  We suspect that initial adoption will follow the trends
+    of R and Python adoption, where the bioinformatics and genomics
+    communities have led the way.  However, it is inarguable that the
+    future of the biomedical community involves increasing amounts of
+    computational work, and we believe that this project will help pave
+    the way to better computational workflows and publications.
 
-  One of the team leads, CTB, is a card-carrying bioinformatician and
-  genomics researcher; he will bake genomics use cases into the
-  project.
+    One of the team leads, CTB, is a card-carrying bioinformatician and
+    genomics researcher; he will bake genomics use cases into the
+    project.
 
 * **Innovation**: Our primary innovation will not be technical; many
   technical solutions already exist. Rather, our innovation is social:
