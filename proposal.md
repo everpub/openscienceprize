@@ -2,7 +2,7 @@ Title:  Everpub: reusable research, 21st century style
 Author: Tim Head (Europe lead), Titus Brown (US lead)
 
 
-## Introduction:
+## Introduction
 
 The open source/open science community is rapidly converging around a
 set of technologies that will enable highly reproducible and reusable
@@ -25,7 +25,7 @@ of disagreement. Finally, open community building around this problem will
 inevitably yield serendipitous long-term interactions.
 
 
-## Background:
+## Background
 
 In recent years, a robust set of technologies has emerged that are
 being applied to the problem of reproducible computational
@@ -105,7 +105,7 @@ into our publishing ecosystem.
 
 
 
-## The proposal:
+## The proposal
 
 We therefore propose to use the award money to develop a "vertical
 spike" through the problem space, focused on tackling common
