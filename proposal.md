@@ -21,13 +21,13 @@ easily by changing parameters and input data.
 Over the last years, a large number of tools have been developed that
 address specific aspects of this problem, and much valuable experience
 has been gained from their use. However, orchestrating all these tools
-for either producing or exploring published computations requires a level of
+for either producing or exploring published research requires a level of
 technical competence that few scientists have or even wish to
 acquire. We propose to drive a vertical spike through this problem
 space, by integrating existing tools and methods into a unified whole
 whose use requires no more technical expertise than performing
 computations on a desktop computer. As a consequence, scientists will
-be able to understand, evaluate, and re-use the computational work of
+be able to understand, evaluate, and re-use the work of
 their peers.
 
 We emphasize that we do not expect to provide a definitive solution to
