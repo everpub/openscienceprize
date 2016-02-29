@@ -13,7 +13,7 @@ simulation. While the rapid advance of computing technology has
 boosted progress in many fields of science, it has also created
 barriers for scientific communication, which are particularly painful
 in the ongoing transition to Open Science. Permitting other
-researchers to fully understand a complex computational method
+researchers, let alone non-specialists, to fully understand complex research
 requires not only publishing software and datasets, but also providing
 a computational environment in which readers can explore these methods
 easily by changing parameters and input data.
@@ -21,7 +21,7 @@ easily by changing parameters and input data.
 Over the last years, a large number of tools have been developed that
 address specific aspects of this problem, and much valuable experience
 has been gained from their use. However, orchestrating all these tools
-for producing or consulting published computations requires a level of
+for either producing or exploring published computations requires a level of
 technical competence that few scientists have or even wish to
 acquire. We propose to drive a vertical spike through this problem
 space, by integrating existing tools and methods into a unified whole
