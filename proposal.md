@@ -147,6 +147,45 @@ all or even most of the technical problems in this space, but we
 believe that we can make valuable progress in a specific vertical spike
 that would be of immediate value and inform a more general implementation.
 
+### Advancing the open biomedical sciences
+
+This proposal addresses the criteria for the open science prize in
+the following ways:
+
+* **Advancement of open science:** We will advance open science in
+  biomedical/health research by making it easier to publish
+  **reproducible**, **reusable**, and **remixable** computational
+  analyses.  We believe that this project will help gather the
+  scattered requirements and communities working in this area and
+  bring their solutions and unsolved problems into a coherent focus.
+
+* **Impact**: The short term impact on biomedical science will be
+  minimal, because the tools and processes we are developing require
+  technical expertise not readily available in the biomedical
+  sciences.  We suspect that initial adoption will follow the trends
+  of R and Python adoption, where the bioinformatics and genomics
+  communities have led the way.  However, it is inarguable that the
+  future of the biomedical community involves increasing amounts of
+  computational work, and we believe that this project will help pave
+  the way to better computational workflows and publications.
+
+  One of the team leads, CTB, is a card-carrying bioinformatician and
+  genomics researcher; he will bake genomics use cases into the
+  project.
+
+* **Innovation**: Our primary innovation will not be technical; many
+  technical solutions already exist. Rather, our innovation is social:
+  we hope to bring the open source community process to bear on this
+  problem!  We believe that community-oriented open source projects
+  are one of the best ways make progress through understanding
+  requirements and driving adoption.
+
+* **Originality**: we believe this project targets an unmet need for
+  a full executable-papers process.
+
+* **Technological viability** and **Resource feasability** are addressed
+  throughout.
+
 ### Short term user story
 
 The use of executable papers provides a benefit to researchers from
