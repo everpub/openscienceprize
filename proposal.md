@@ -301,7 +301,7 @@ in seeing a working prototype implementing the ideas of this proposal:
 * [Research Ideas and Outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 * [Authorea](https://www.authorea.com/) - Alberto Pepe
-* [CalTech library](http://orcid.org/0000-0001-5494-4806) - Gail Clement
+* [Caltech library](http://orcid.org/0000-0001-5494-4806) - Gail Clement
 
 ## Other communities to engage
 
@@ -379,7 +379,7 @@ comments on composability by KH are also very interesting.
 [CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/
 [Open Science Framework]: https://osf.io
 [Exec and share companion sites]: http://www.execandshare.org/CompanionSite/
-[Giga]: http://gigascience.biomedcentral.com/
+[GigaScience]: http://gigascience.biomedcentral.com/
 [F1000]: http://F1000.com
 [Research Ideas and outcomes]: http://riojournal.com/
 [ReScience]: https://rescience.github.io
