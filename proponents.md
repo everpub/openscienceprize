@@ -34,7 +34,7 @@ NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software,
 and founded the [Recast](https://github.com/recast-hep) project aimed at
 making analysis of particle physics data analysis reproducible and reusable.
 
-[Andrey Ustyuzhanin](https://github.com/anaderi) is the head of the interdisciplinary research group at Yandex School of Data Analysis ([YSDA](https://yandexdataschool.com)). His group is involved in data science-intensive research in fundamental science. YSDA is full member of [LHCb collaboration](http://lhcb.web.cern.ch/lhcb/), [SHiP collaboration](http://ship.web.cern.ch/ship/) and [CRAYFIS](http://crayfis.io). Interdisciplinary research success is highly sensitive to making research as much transparent for peers from domains involved as possible. Andrey is co-founder of [everware] and [Reprodicuble Experiment Platform](https://github.com/yandex/rep) projects.
+[Andrey Ustyuzhanin](https://github.com/anaderi) is the head of the interdisciplinary research group at Yandex School of Data Analysis ([YSDA](https://yandexdataschool.com)). His group is involved in data science-intensive research in fundamental science. YSDA is full member of [LHCb collaboration](http://lhcb.web.cern.ch/lhcb/), [SHiP collaboration](http://ship.web.cern.ch/ship/) and [CRAYFIS](http://crayfis.io). Interdisciplinary research success is highly sensitive to making research as much transparent for peers from domains involved as possible. Andrey is co-founder of [everware](http://everware.xyz) and [Reprodicuble Experiment Platform](https://github.com/yandex/rep) projects.
 
 [Nicolas P. Rougier](http://www.labri.fr/perso/nrougier/) is a researcher in
 computational neuroscience at the Neurodegerative Disease Institute (Bordeaux,
