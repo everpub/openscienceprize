@@ -1,4 +1,5 @@
+FORMAT = markdown+mmd_title_block
 pdf: proposal.pdf abstract.pdf
 
 %.pdf: %.md
-	pandoc -V colorlinks $< -o $@
+	pandoc --standalone --from $(FORMAT) -V colorlinks $< -o $@

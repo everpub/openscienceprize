@@ -1,8 +1,5 @@
-# Everpub: reusable research, 21st century style
-
-Tim Head (Europe lead)
-
-Titus Brown (US lead)
+Title:  Everpub: reusable research, 21st century style
+Author: Tim Head (Europe lead), Titus Brown (US lead)
 
 
 ## Introduction:
