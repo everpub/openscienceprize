@@ -255,6 +255,10 @@ France). He is an active open source developer and has been confronted with the
 [reproducibility problem](http://journal.frontiersin.org/article/10.3389/fncom.2015.00030/full) in computational neuroscience. He co-founded the
 [ReScience journal](http://rescience.github.io) with Konrad Hinsen.
 
+[Lukas Heinrich](https://github.com/lukasheinrich) is a experimental particle
+physicist involved in bringing reproducibility and reusability to the LHC experiments at CERN as
+the lead developer of the [Recast](https://github.com/recast-hep) project.
+ 
 The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
 required to construct a working prototype. They also have a track
