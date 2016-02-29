@@ -37,7 +37,7 @@ distributed version control systems that support collaboration,
 remixing, and forking ([git] and [Mercurial]), platforms to host
 collaboration around digital objects ([GitHub], [BitBucket], and [GitLab]),
 isolated execution platforms (virtual machines, cloud computing, and
-containers), configuration and dependency specification ([Debian],
+containers), configuration and dependency specification ([Debian], [Nix]/[Guix],
 [conda], [Docker]), "notebook" technologies ([Jupyter], [RMarkdown]), DOI
 minting, and many others (**XXX more here**).
 
@@ -347,6 +347,8 @@ comments on composability by KH are also very interesting.
 [BitBucket]: https://bitbucket.org
 [GitLab]:    https://gitlab.com/
 [Debian]:    https://www.debian.org/
+[Nix]:       https://nixos.org/
+[Guix]:      https://www.gnu.org/software/guix/
 [Conda]:     https://www.continuum.io/why-anaconda
 [Docker]:    https://www.docker.com
 [Jupyter]:   http://jupyter.org
