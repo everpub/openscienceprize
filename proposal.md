@@ -223,7 +223,7 @@ under [BSD3] for code and [CC BY 4.0] for other material.
 Several efforts exist to create interactive and reusable scientific
 articles. This includes: [gitxiv], [Open Science Framework],
 [Galaxy], [OpenML], [IPOL], [reprozip] and [Exec and share companion sites]. To
-our knowledge, none by themself provide what we propose. They either lack
+our knowledge, none by themself provides what we propose. They either lack
 executability or generality, create lock in, require additional human
 effort after publication, or focus on workflow management.
 
