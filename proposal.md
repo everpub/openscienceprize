@@ -11,7 +11,7 @@ Titus Brown (US lead)
 The open source/open science community is rapidly converging around a
 set of technologies that will enable highly reproducible
 computer-aided research publications.  These technologies include
-environments to encode and encapsulate dependencies, cloud compute to
+environments to encode and encapsulate dependencies, cloud computing to
 execute workflows, collaboration technologies that enable remixing,
 and text formats that enable comparison and merging.
 
@@ -29,7 +29,7 @@ long-term interactions.
 
 ## Background:
 
-In recent years, a robust set of technologies have emerged that are
+In recent years, a robust set of technologies has emerged that are
 being applied to the problem of reproducible computational
 publications and narrative data analysis.  These include widely used
 languages with a robust ecosystem of libraries ([R] and [Python]),
@@ -37,7 +37,7 @@ distributed version control systems that support collaboration,
 remixing, and forking ([git] and [Mercurial]), platforms to host
 collaboration around digital objects ([GitHub], [BitBucket], and [GitLab]),
 isolated execution platforms (virtual machines, cloud computing, and
-containers), configuration and dependency specification ([Debian],
+containers), configuration and dependency specification ([Debian], [Nix]/[Guix],
 [conda], [Docker]), "notebook" technologies ([Jupyter], [RMarkdown]), DOI
 minting, and many others (**XXX more here**).
 
@@ -85,7 +85,7 @@ composibility of code segments.  The rich Jupyter Notebook format
 specification also presents challenges for longevity of research
 artifacts. Before we "bake" notebooks into computational
 reproducibility, we should think more deeply about how these issues
-should be addressed. (refs)
+should be addressed (see e.g. [this discussion](https://github.com/jupyter/enhancement-proposals/pull/4)). (**XXX more refs**)
 
 Seventh, there are several (perhaps many) missing technical components
 of the publishing stack for interacting with pre- and post-publication
@@ -230,10 +230,17 @@ machine-learning.  Tim is an invited member of the inaugural
 [Open Leaders Cohort](https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort)
 of the [Mozilla Science Lab](https://www.mozillascience.org/about).
 
-[Konrad Hinsen](http://dirac.cnrs-orleans.fr/~hinsen) is
-a computational biophysicist with a long-standing interest in
-reproducible research (e.g. [ActivePapers](http://www.activepapers.org/)).
-He is a founding member of the Numerical Python team and author or co-author of several Open Source scientific software packages. He is a member of the editorial board of [Computing in Science & Engineering](https://www.computer.org/web/computingnow/cise) magazine and recently published a book on ["Computation in Science"](http://computation-in-science.khinsen.net/).
+[Konrad Hinsen](http://dirac.cnrs-orleans.fr/~hinsen) is a
+computational biophysicist at [CNRS](http://www.cnrs.fr/) with a
+long-standing interest in reproducible research
+(e.g. [ActivePapers](http://www.activepapers.org/)).  He was a
+founding member of the Numerical Python team and is an author or
+co-author of several Open Source scientific software packages. He is a
+member of the editorial boards of
+[Computing in Science & Engineering](https://www.computer.org/web/computingnow/cise)
+magazine and of [ReScience](http://rescience.github.io/). He recently
+published a book on
+["Computation in Science"](http://computation-in-science.khinsen.net/).
 
 [C. Titus Brown](https://impactstory.org/TitusBrown) is a genomics
 and bioinformatics researcher at UC Davis who is also an active open
@@ -340,6 +347,8 @@ comments on composability by KH are also very interesting.
 [BitBucket]: https://bitbucket.org
 [GitLab]:    https://gitlab.com/
 [Debian]:    https://www.debian.org/
+[Nix]:       https://nixos.org/
+[Guix]:      https://www.gnu.org/software/guix/
 [Conda]:     https://www.continuum.io/why-anaconda
 [Docker]:    https://www.docker.com
 [Jupyter]:   http://jupyter.org
