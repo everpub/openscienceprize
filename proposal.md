@@ -80,7 +80,7 @@ e.g. [TravisCI]), DOI minting (with e.g. [Zenodo]), and authorship
 tracking ([ORCID]).
 
 Sixth, the current "notebook" style of execution supported by both
-Jupyter and RMarkdown limits resuability, remixability, and
+Jupyter and RMarkdown limits reusability, remixability, and
 composibility of code segments.  The rich Jupyter Notebook format
 specification also presents challenges for longevity of research
 artifacts. Before we "bake" notebooks into computational
@@ -247,7 +247,7 @@ NSF-funded [DIANA-HEP](http://diana-hep.org) focusing on sustainable software,
 and founded the [Recast](https://github.com/recast-hep) project aimed at
 making analysis of particle physics data analysis reproducible and reusable.
 
-[Andrey Ustyuzhanin](https://github.com/anaderi) head of interdisciplinary research group at Yandex School of Data Analysis ([YSDA](https://yandexdataschool.com)). His group is involved in data science-intensive research in fundamental science. YSDA is full member of [LHCb collaboration](http://lhcb.web.cern.ch/lhcb/), [SHiP collaboration](http://ship.web.cern.ch/ship/) and [CRAYFIS](http://crayfis.io). Interdisciplinary research success is highly sensitive to making research as much transparent for peers from domains involved as possible. Andrey is co-founder of [everware] and [Reprodicuble Experiment Platform](https://github.com/yandex/rep) projects.
+[Andrey Ustyuzhanin](https://github.com/anaderi) is the head of the interdisciplinary research group at Yandex School of Data Analysis ([YSDA](https://yandexdataschool.com)). His group is involved in data science-intensive research in fundamental science. YSDA is full member of [LHCb collaboration](http://lhcb.web.cern.ch/lhcb/), [SHiP collaboration](http://ship.web.cern.ch/ship/) and [CRAYFIS](http://crayfis.io). Interdisciplinary research success is highly sensitive to making research as much transparent for peers from domains involved as possible. Andrey is co-founder of [everware] and [Reprodicuble Experiment Platform](https://github.com/yandex/rep) projects.
 
 [Nicolas P. Rougier](http://www.labri.fr/perso/nrougier/) is a researcher in
 computational neuroscience at the Neurodegerative Disease Institute (Bordeaux,
@@ -265,7 +265,7 @@ required to construct a working prototype. They also have a track
 record of contributing to open-source projects and growing communities
 around projects. In addition, one of the proponents ([CTB]) is
 experienced in teaching highly technical tools to novices via his
-involvement with Software Carpentry and his training initiative at UC
+involvement with [Software Carpentry](http://software-carpentry.org/) and his training initiative at UC
 Davis. Another of the proponents ([TH]) has built a
 [demonstrator](http://everware.xyz) that allows people to jump right
 in to other's research code.
@@ -277,9 +277,9 @@ in seeing a working prototype implementing the ideas of this proposal:
 
 <https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (**place holder XXX**)
 
-* [Giga] - Laurie Goodman
+* [GigaScience] - Laurie Goodman
 * [F1000] - Michael Markie
-* [Research Ideas and outcomes] - Lyubomir Penev
+* [Research Ideas and Outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 * [Authorea](https://www.authorea.com/) - Alberto Pepe
 
