@@ -85,7 +85,7 @@ composibility of code segments.  The rich Jupyter Notebook format
 specification also presents challenges for longevity of research
 artifacts. Before we "bake" notebooks into computational
 reproducibility, we should think more deeply about how these issues
-should be addressed. (refs)
+should be addressed (see e.g. [this discussion](httpes://github.com/jupyter/enhancement-proposals/pull/4)). (**XXX more refs**)
 
 Seventh, there are several (perhaps many) missing technical components
 of the publishing stack for interacting with pre- and post-publication
