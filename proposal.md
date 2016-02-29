@@ -11,7 +11,7 @@ Titus Brown (US lead)
 The open source/open science community is rapidly converging around a
 set of technologies that will enable highly reproducible
 computer-aided research publications.  These technologies include
-environments to encode and encapsulate dependencies, cloud compute to
+environments to encode and encapsulate dependencies, cloud computing to
 execute workflows, collaboration technologies that enable remixing,
 and text formats that enable comparison and merging.
 
@@ -29,7 +29,7 @@ long-term interactions.
 
 ## Background:
 
-In recent years, a robust set of technologies have emerged that are
+In recent years, a robust set of technologies has emerged that are
 being applied to the problem of reproducible computational
 publications and narrative data analysis.  These include widely used
 languages with a robust ecosystem of libraries ([R] and [Python]),
