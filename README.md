@@ -6,7 +6,7 @@ Read [the full proposal](proposal.md).
 
 Participants: Tim Head, Titus Brown, et al.
 
-There is quite a bit of work left to do to have a complete proposal, so please contribute.
+The proposal is complete, now the work starts! So please contribute.
 
 We propose to make reusability a first-class citizen in computer-aided research by enabling the publication of dynamic and interactive scientific narratives that can be verified, altered, reused, and cited.
 
@@ -35,15 +35,15 @@ A mockup of what a executable paper could look like:
 
 # Contributing
 
-Check out [issue #14](https://github.com/betatim/openscienceprize/issues/14).
+Check out [issue #14](https://github.com/everpub/openscienceprize/issues/14).
 Introduce yourself and say hello.
 Though please refrain from having discussion in that issue.
 Find the most appropriate existing issue and contribute there or create a new one.
 
 Everyone is welcome to contribute. Discussion happens in
-[issues](https://github.com/betatim/openscienceprize/issues), and
+[issues](https://github.com/everpub/openscienceprize/issues), and
 changes are handled via [pull
-requests](https://github.com/betatim/openscienceprize/pulls).
+requests](https://github.com/everpub/openscienceprize/pulls).
 
 You can contribute by filing an issue regarding something you find unclear,
 needs improving, is missing or is incorrect
