@@ -45,3 +45,5 @@ France). He is an active open source developer and has been confronted with the
 [Lukas Heinrich](https://github.com/lukasheinrich) is a experimental particle
 physicist involved in bringing reproducibility and reusability to the LHC experiments at CERN as
 the lead developer of the [Recast](https://github.com/recast-hep) project.
+
+Daniel Dobos is a experimental particle physicist working on the [ATLAS](http://www.atlas.ch) experiment at [CERN](http://www.cern.ch) as an expert for semiconductor silicon and diamond vertex detectors.
