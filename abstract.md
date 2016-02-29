@@ -1,4 +1,4 @@
-# Everpub: reusable research, 21st century style
+Title:  Everpub: reusable research, 21st century style
 
 ## Abstract
 
