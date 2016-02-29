@@ -1,2 +1,4 @@
-pdf: proposal.md
-	pandoc -V colorlinks proposal.md -o proposal.pdf
+pdf: proposal.pdf abstract.pdf
+
+%.pdf: %.md
+	pandoc -V colorlinks $< -o $@
