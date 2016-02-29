@@ -322,7 +322,7 @@ ideas.
 [Collaborative cloud-enabled tools allow rapid, reproducible
 biological
 insights](http://www.nature.com/ismej/journal/v7/n3/full/ismej2012123a.html),
-a publication in ISME by Min Ragan-Kelly et al., demonstrating the
+a publication in ISME by Min Ragan-Kelley et al., demonstrating the
 power of this approach.
 
 [Is mybinder a solution for next-gen computational science
