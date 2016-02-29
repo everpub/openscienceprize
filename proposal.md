@@ -237,8 +237,8 @@ The proponents (and contributors to this [everpub proposal]) will form the first
 members of a community we will build around this proposal.
 
 The [everpub proposal] was written in
-the open on GitHub and was viewed by 320 unique visitors. A total of 22 people subscribed to the
-repository to be informed about all activity, 30 people
+the open on GitHub and was viewed by 356 unique visitors. A total of 20 people subscribed to the
+repository to be informed about all activity, 32 people
 showed their support by starring the repository, and twelve people
 actively contributed to the creation of this proposal. No financial
 incentives were offered for participation.
