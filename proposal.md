@@ -279,7 +279,7 @@ in to other's research code.
 
 ## Expressions of interest in this project
 
-We contacted the following journals and received an expression of interest
+We contacted the following organisations and received an expression of interest
 in seeing a working prototype implementing the ideas of this proposal:
 
 <https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (**place holder XXX**)
@@ -289,6 +289,7 @@ in seeing a working prototype implementing the ideas of this proposal:
 * [Research Ideas and Outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 * [Authorea](https://www.authorea.com/) - Alberto Pepe
+* [CalTech library](http://orcid.org/0000-0001-5494-4806) - Gail Clement
 
 ## Other communities to engage
 
