@@ -233,7 +233,11 @@ The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
 required to construct a working prototype. They also have a track
 record of contributing to open-source projects and growing communities
-around projects. In addition, one of the proponents ([CTB]) is
+around projects.
+
+A detailed list of proponents is attached to the submission as `proponents.pdf`.
+
+In addition, one of the proponents ([CTB]) is
 experienced in teaching highly technical tools to novices via his
 involvement with [Software Carpentry](http://software-carpentry.org/) and his training initiative at UC
 Davis. Another of the proponents ([TH]) has built a
