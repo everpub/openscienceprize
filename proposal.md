@@ -37,13 +37,13 @@ collaboration around digital objects ([GitHub], [BitBucket], and [GitLab]),
 isolated execution platforms (virtual machines, cloud computing, and
 containers), configuration and dependency specification ([Debian], [Nix]/[Guix],
 [conda], [Docker]), "notebook" technologies ([Jupyter], [RMarkdown]), DOI
-minting, and many others (**XXX more here**).
+minting, and many others.
 
 Even more recently, these technologies have been combined
 by open science enthusiasts to deliver components that support
 highly reproducible open science.  For example, [mybinder], [everware] and [tmpnb]
 enable the execution of Jupyter notebooks in highly configurable
-remote containers; (XXX more here).
+remote containers.
 
 Despite these advances, there are still many missing components of a
 system for executable papers. Moreover, we would like to be able
@@ -88,7 +88,7 @@ composibility of code segments.  The rich Jupyter Notebook format
 specification also presents challenges for longevity of research
 artifacts. Before we "bake" notebooks into computational
 reproducibility, we should think more deeply about how these issues
-should be addressed (see e.g. [this discussion](https://github.com/jupyter/enhancement-proposals/pull/4)). (**XXX more refs**)
+should be addressed (see e.g. [this discussion](https://github.com/jupyter/enhancement-proposals/pull/4)).
 
 Seventh, there are several missing technical components
 of the publishing stack for interacting with pre- and post-publication
@@ -237,10 +237,10 @@ The proponents (and contributors to this [everpub proposal]) will form the first
 members of a community we will build around this proposal.
 
 The [everpub proposal] was written in
-the open on GitHub. A total of 16 people subscribed to the
-repository to be informed about all activity, twelve people
-showed their support by starring the repository, and **N** people
-actively contributed to the creation of this proposal (**XXX**). No financial
+the open on GitHub and was viewed by 320 unique visitors. A total of 22 people subscribed to the
+repository to be informed about all activity, 30 people
+showed their support by starring the repository, and twelve people
+actively contributed to the creation of this proposal. No financial
 incentives were offered for participation.
 
 We have deliberately avoided converging on technical details in this
@@ -261,8 +261,8 @@ under [BSD3] for code and [CC BY 4.0] for other material.
 
 Several efforts exist to create interactive and reusable scientific
 articles. This includes: [gitxiv], [Open Science Framework],
-[Galaxy], [OpenML], [IPOL], and [Exec and share companion sites]. To
-our knowledge, none provides what we propose. They either lack
+[Galaxy], [OpenML], [IPOL], [reprozip] and [Exec and share companion sites]. To
+our knowledge, none by themselves provides what we propose. They either lack
 executability or generality, create lock in, require additional human
 effort after publication, or focus on workflow management.
 
@@ -272,7 +272,11 @@ The proponents are researchers in data intensive fields. They have
 significant technical experience with the individual components
 required to construct a working prototype. They also have a track
 record of contributing to open-source projects and growing communities
-around projects. In addition, one of the proponents ([CTB]) is
+around projects.
+
+A detailed list of proponents is attached to the submission as `proponents.pdf`.
+
+In addition, one of the proponents ([CTB]) is
 experienced in teaching highly technical tools to novices via his
 involvement with [Software Carpentry](http://software-carpentry.org/) and his training initiative at UC
 Davis. Another of the proponents ([TH]) has built a
@@ -283,8 +287,6 @@ in to other's research code.
 
 We contacted the following organisations and received an expression of interest
 in seeing a working prototype implementing the ideas of this proposal:
-
-<https://github.com/betatim/openscienceprize/issues/22#issuecomment-189144172> (**place holder XXX**)
 
 * [GigaScience] - Laurie Goodman
 * [F1000] - Michael Markie
@@ -367,6 +369,7 @@ comments on composability by KH are also very interesting.
 [gitxiv]:    http://gitxiv.com/
 [Galaxy]:    https://galaxyproject.org/
 [OpenML]:    http://www.openml.org/
+[reprozip]:  https://vida-nyu.github.io/reprozip/
 [IPOL]:      http://www.ipol.im/
 [BSD3]:      http://choosealicense.com/licenses/bsd-3-clause/
 [CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/
