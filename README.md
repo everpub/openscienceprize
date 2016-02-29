@@ -1,3 +1,6 @@
+![logo](logos/png/everpub-full-sml.png)
+
+
 # Everpub: reusable research, 21st-century style
 
 Everpub is an entry for
