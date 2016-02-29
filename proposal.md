@@ -286,6 +286,7 @@ in seeing a working prototype implementing the ideas of this proposal:
 
 * [GigaScience] - Laurie Goodman
 * [F1000] - Michael Markie
+* [CERN open data portal](http://opendata.cern.ch/) - Sunje Dallmeier-Tiessen
 * [Research Ideas and Outcomes] - Lyubomir Penev
 * [ReScience] - Konrad Hinsen and Nicolas P. Rougier
 * [Authorea](https://www.authorea.com/) - Alberto Pepe
